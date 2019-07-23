@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+meta name="language" content="vi"/>
+
+<!-- chi phi lam cmnd -->
+<category>
+   <pattern>CHI PHI</pattern>
+   <template>CHI PHI</template>
+</category>
+<category>
+   <pattern> * LAM * TIEN *</pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * LAM * PHI *</pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* PHI * LAM *</pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>PHI * LAM *</pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>PHI LAM *</pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* LAM * TIEN *</pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* TIEN * LAM *</pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>LAM * TIEN</pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+
+<!-- doi the co mat phi hay khong -->
+<category>
+   <pattern>DOI * TIEN</pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>DOI * TIEN *</pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * DOI * TIEN</pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * DOI * TIEN *</pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>PHI * DOI * </pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>PHI DOI * </pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* DOI * PHI * </pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>DOI * PHI *</pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+</aiml>

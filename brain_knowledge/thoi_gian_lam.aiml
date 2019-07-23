@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+meta name="language" content="vi"/>
+
+<!-- srai: using for reuse template of pattern and template -->
+<!-- thoi gian lam cmnd-->
+<category>
+   <pattern>THOI GIAN</pattern>
+   <template>THOI GIAN LAM CMND</template>
+</category>
+<category>
+   <pattern>_ LAU * LAM XONG*</pattern>
+   <template>
+      <srai>THOI GIAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>_ LAM XONG * LAU *</pattern>
+   <template>
+      <srai>THOI GIAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>LAM * LAU *</pattern>
+   <template>
+      <srai>THOI GIAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * LAM * LAU *</pattern>
+   <template>
+      <srai>THOI GIAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>LAM * LAU *</pattern>
+   <template>
+      <srai>THOI GIAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* BAO LAU * NHAN *</pattern>
+   <template>
+      <srai>THOI GIAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>BAO LAU * NHAN *</pattern>
+   <template>
+      <srai>THOI GIAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* BAO * LAU * NHAN *</pattern>
+   <template>
+      <srai>THOI GIAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> BAO * LAU * NHAN *</pattern>
+   <template>
+      <srai>THOI GIAN</srai>
+   </template>
+</category>
+</aiml>

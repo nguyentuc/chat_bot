@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+meta name="language" content="vi"/>
+
+<!-- doi the, cap lai cmnd -->
+<category>
+   <pattern>CCCD HET HAN</pattern>
+   <template>DOI THE CCCD HET THOI HAN</template>
+</category>
+<category>
+   <pattern> * DOI * HET HAN *</pattern>
+   <template>
+      <srai>CCCD HET HAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * HET HAN *</pattern>
+   <template>
+      <srai>CCCD HET HAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * HET HAN</pattern>
+   <template>
+      <srai>CCCD HET HAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * DOI * HET HAN</pattern>
+   <template>
+      <srai>CCCD HET HAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>CAP LAI * HET HAN *</pattern>
+   <template>
+      <srai>CCCD HET HAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* CAP LAI * HET HAN *</pattern>
+   <template>
+      <srai>CCCD HET HAN</srai>
+   </template>
+</category>
+
+
+<category>
+   <pattern> CAP LAI * HET HAN</pattern>
+   <template>
+      <srai>CCCD HET HAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * CAP LAI * HET HAN</pattern>
+   <template>
+      <srai>CCCD HET HAN</srai>
+   </template>
+</category>
+
+
+<!-- cmt hong can cap lai -->
+<category>
+   <pattern>HONG THE</pattern>
+   <template>HONG THE</template>
+</category>
+<category>
+   <pattern> * HONG *</pattern>
+   <template>
+      <srai>HONG THE</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * HU *</pattern>
+   <template>
+      <srai>HONG THE</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * HONG</pattern>
+   <template>
+      <srai>HONG THE</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * HU</pattern>
+   <template>
+      <srai>HONG THE</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> HONG *</pattern>
+   <template>
+      <srai>HONG THE</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> HU *</pattern>
+   <template>
+      <srai>HONG THE</srai>
+   </template>
+</category>
+
+<!-- the cc duoc doi, cap lai khi nao-->
+<category>
+   <pattern>DOI KHI NAO</pattern>
+   <template>TCC DOI KHI NAO</template>
+</category>
+<category>
+   <pattern>KHI NAO * DOI *</pattern>
+   <template>
+      <srai>DOI KHI NAO</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* DOI * KHI NAO *</pattern>
+   <template>
+      <srai>DOI KHI NAO</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* DOI * KHI NAO</pattern>
+   <template>
+      <srai>DOI KHI NAO</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* DOI KHI NAO *</pattern>
+   <template>
+      <srai>DOI KHI NAO</srai>
+   </template>
+</category>
+
+</aiml>

@@ -1,0 +1,22 @@
+<aiml version="1.0">
+    <category>
+        <pattern>LEARN AIML</pattern>
+        <template>
+            <!-- Load standard AIML set -->
+            <learn>brain_knowledge/z_conversation.aiml</learn>
+            <learn>brain_knowledge/age.aiml</learn>
+            <learn>brain_knowledge/cost.aiml</learn>
+            <learn>brain_knowledge/lam_cmnd.aiml</learn>
+            <learn>brain_knowledge/chuyen_the.aiml</learn>
+            <learn>brain_knowledge/mat_cmnd.aiml</learn>
+            <learn>brain_knowledge/chuyen_phat_nhanh.aiml</learn>
+            <learn>brain_knowledge/khac_nhau.aiml</learn>
+            <learn>brain_knowledge/thongtin.aiml</learn>
+            <learn>brain_knowledge/hieu_luc.aiml</learn>
+            <learn>brain_knowledge/cap_lai.aiml</learn>
+            <learn>brain_knowledge/thoi_gian_lam.aiml</learn>
+            <learn>brain_knowledge/anh.aiml</learn>
+            <learn>brain_knowledge/trinh_tu.aiml</learn>
+        </template>
+    </category>
+</aiml>

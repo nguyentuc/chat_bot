@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+meta name="language" content="vi"/>
+
+<!-- chuyen the can cuoc cong dan -->
+<category>
+   <pattern>CMT SANG TCC</pattern>
+   <template>CHUYEN TU CMND SANG TCC</template>
+</category>
+<category>
+   <pattern> * CMT SANG TCC *</pattern>
+   <template>
+      <srai>CMT SANG TCC</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * CHUNG MINH THU SANG THE CAN CUOC *</pattern>
+   <template>
+      <srai>CMT SANG TCC</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * CHUNG MINH THU NHAN DAN SANG THE CAN CUOC CONG DAN *</pattern>
+   <template>
+      <srai>CMT SANG TCC</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * CHUYEN * SANG * </pattern>
+   <template>
+      <srai>CMT SANG TCC</srai>
+   </template>
+</category>
+
+
+<category>
+   <pattern> * BAT BUOC * DOI * </pattern>
+   <template>
+      <srai>CMT SANG TCC</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * BAT BUOC DOI * </pattern>
+   <template>
+      <srai>CMT SANG TCC</srai>
+   </template>
+</category>
+
+</aiml>

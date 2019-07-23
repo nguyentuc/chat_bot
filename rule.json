@@ -1,0 +1,439 @@
+{
+  "rules": [
+    {
+      "id": 0,
+      "key": "XINCHAO1",
+      "value": "Xin chào bạn, chúc bạn một ngày vui vẻ.",
+      "link": ""
+    },
+    {
+      "id": 0,
+      "key": "XINCHAO2",
+      "value": "Xin chào ! Rất vui khi được gặp ban !!",
+      "link": ""
+    },
+    {
+      "id": 0,
+      "key": "XINCHAO3",
+      "value": "Xin chào bạn, mình là bot. Rất vui khi được nói chuyện với bạn !!!",
+      "link": ""
+    },
+    {
+      "id": 0,
+      "key": "XINCHAO4",
+      "value": "Xin chào người bạn của tôi.",
+      "link": ""
+    },
+    {
+      "id": 0,
+      "key": "DAY LA DAU",
+      "value": "Đây là đâu ?",
+      "link": ""
+    },
+    {
+      "id": 1,
+      "key": "CAN CUNG CAP GIAY TO SAU",
+      "value": "Bạn cần cung cấp những giấy tờ như sau: Hộ khẩu thường trú, kê khai tờ khai cấp chứng minh nhân dân. Và lăn tay, chụp ảnh hoặc công dân chụp ảnh theo quy định",
+      "link": "http://csqlhc.bocongan.gov.vn/vi-VN/Home/Chung-minh-nhan-dan-26/17/Thu-tuc-ve-cap-Chung-minh-nhan-dan-CMND.aspx"
+    },
+    {
+      "id": 2,
+      "key": "Tôi đến đâu để làm thủ tục cấp chứng minh thư nhân dân",
+      "key": "DEN DAU LAM THU TUC CAP",
+      "value": "Công an cấp huyện nơi đăng ký thường trú hoặc Công an cấp tỉnh theo phân cấp",
+      "link": "http://csqlhc.bocongan.gov.vn/vi-VN/Home/Chung-minh-nhan-dan-26/17/Thu-tuc-ve-cap-Chung-minh-nhan-dan-CMND.aspx"
+    },
+    {
+      "id": 3,
+      "key": "Bao lâu để làm xong chứng minh thư nhân dân của tôi",
+      "key": "THOI GIAN LAM CMND",
+      "value": "Trong thời hạn 15 ngày đối với thành phố, thị xã và 30 ngày đối với các địa bàn khác tính từ ngày công dân nộp đủ giấy tờ hợp lệ và làm xong thủ tục cấp Chứng minh nhân dân.",
+      "link": "http://csqlhc.bocongan.gov.vn/vi-VN/Home/Chung-minh-nhan-dan-26/17/Thu-tuc-ve-cap-Chung-minh-nhan-dan-CMND.aspx"
+    },
+    {
+      "id": 4,
+      "key": "Nhận chứng minh thư nhân dân ở đâu",
+      "key": "NHAN O DAU",
+      "value": "Công an cấp huyện nơi đăng ký thường trú hoặc Công an cấp tỉnh theo phân cấp.\n- Công dân đang phục vụ trong quân đội, công an (trừ nghĩa vụ quân sự) chưa đăng ký hộ khẩu cùng gia đình hiện ở tập trung trong doanh trại thì đến Công an cấp huyện nơi đơn vị đóng trụ sở chính, nơi bố trí nhà ở tập thể của đơn vị làm thủ tục.",
+      "link": "http://csqlhc.bocongan.gov.vn/vi-VN/Home/Chung-minh-nhan-dan-26/17/Thu-tuc-ve-cap-Chung-minh-nhan-dan-CMND.aspx"
+    },
+    {
+      "id": 5,
+      "key": "Lệ phí cấp mới chứng minh nhân dân là bao nhiêu",
+      "key": "LE PHI CAP MOI",
+      "value": "\n- Thu nhận ảnh trực tiếp (ảnh thu qua camera) là 30.000 VNĐ\n- Thu nhận ảnh gián tiếp (chưa tính tiền chụp ảnh) là 20.000 VNĐ.",
+      "link": "http://www.moit.gov.vn/tin-chi-tiet/-/chi-tiet/muc-thu-le-phi-cap-chung-minh-nhan-dan-moi-la-30-000-%C4%91ong-100821-16.html"
+    },
+    {
+      "id": 6,
+      "key": "Chứng minh nhân dân khác căn cước công dân ở đâu",
+      "key": "CHUNG MINH KHAC CAN CUOC",
+      "value": "\nSố thẻ Căn cước công dân chính là số định danh cá nhân được cấp cho mỗi công dân Việt Nam, không lặp lại ở người khác. Thẻ Căn cước công dân không quy định mục họ, tên gọi khác; mục dân tộc được thay bằng quốc tịch, dấu hình Công an hiệu được thay bằng dấu có hình Quốc huy của cơ quan cấp thẻ Căn cước công dân.\nThời hạn sử dụng của CMND là 15 năm, đối với thẻ Căn cước công dân sau lần cấp đầu tiên, công dân phải đổi khi đủ 25 tuổi, 40 tuổi và 60 tuổi và từ 60 tuổi công dân không phải đổi.\nTheo quy định của Luật Căn cước công dân thì công dân có thể sử dụng CMND cho đến hết thời hạn hoặc đổi sang thẻ Căn cước công dân để phục vụ việc giao dịch và hai loại giấy tờ này đều có giá trị pháp lý như nhau.\n.",
+      "link": "http://baochinhphu.vn/Tra-loi-cong-dan/The-Can-cuoc-cong-dan-va-CMND-khac-nhau-the-nao/245930.vgp"
+    },
+    {
+      "id": 7,
+      "key": "Dịch vụ chuyển phát chứng minh nhân dân",
+      "key": "DICH VU CHUYEN PHAT",
+      "value": "Từ tháng 9/2011, Bưu điện tỉnh và Công an tỉnh đã ký kết phối hợp chuyển phát Chứng minh nhân dân (CMND) qua đường bưu điện. Sau khi làm xong thủ tục cấp mới, đổi, cấp lại CMND, người dân nếu có nhu cầu chuyển trả qua đường bưu điện thì liên hệ với giao dịch viên bưu điện để cung cấp các thông tin về địa chỉ và số điện thoại của mình. CMND sẽ được chuyển đến tay người nhận trong vòng 2 ngày đối với khu vực nội thị hoặc 3 ngày đối với các địa chỉ trong tỉnh và 7 ngày đối với khu vực ngoại tỉnh.",
+      "link": "http://baodaknong.org.vn/xa-hoi/chuyen-chung-minh-nhan-dan-qua-duong-buu-dien-nhanh-chong-tien-loi-va-an-toan-cho-nguoi-dan-18426.html"
+    },
+    {
+      "id": 8,
+      "key": "Chứng minh thư có bao nhiêu số",
+      "key": "GIAY CHUNG MINH CO BAO NHIEU SO",
+      "value": "Nếu Luật căn cước công dân được Quốc hội thông qua vẫn tồn tại ba loại chứng minh, đó là CMND 9 số, CMND 12 số và căn cước công dân.",
+      "link": "https://tuoitre.vn/se-co-ba-loai-chung-minh-nhan-dan-651115.htm"
+    },
+    {
+      "id": 9,
+      "key": "Thời hạn của chứng minh thư nhân dân là bao lâu",
+      "key": "THOI HAN CMND",
+      "value": "CMND có giá trị sử dụng 15 năm. Mỗi công dân Việt Nam chỉ được cấp một CMND và có một số CMND riêng. Nếu có sự thay đổi hoặc bị mất CMND thì được làm thủ tục đổi, cấp lại một giấy CMND khác nhưng số ghi trên CMND vẫn giữ đúng theo số ghi trên CMND đã cấp",
+      "link": "https://hoidap.thuvienphapluat.vn/hoi-dap/3B6E0-hd-thoi-han-su-dung-cua-chung-minh-nhan-dan-cmnd-la-bao-lau-ke-tu.html"
+    },
+    {
+      "id": 10,
+      "key": "Thủ tục cấp lại chứng minh thư là gì",
+      "key": "THU TUC CAP LAI",
+      "value": "Chuẩn bị hồ sơ gồm\n- Sổ hộ khẩu.\n- Đơn đề nghị cấp CMND (Mẫu CM3), có ảnh đóng dấu giáp lai và xác nhận của Công an phường, xã, thị trấn.\n- 02 ảnh 3x4 (mắt nhìn thẳng, không đeo kính, không để râu, tóc không trùm tai gáy, nếu là phụ nữ không để hở ngực).\n- Giấy tờ chứng minh thuộc diện  không thu lệ phí cấp CMND (bản photocopy kèm bản chính để đối chiếu).\nNộp hồ sơ tại Đội cấp CMND, phòng CSQLHC về TTXH Công an tỉnh\n\n - Cán bộ công an sẽ hướng dẫn:\n+ Kê khai tờ khai cấp CMND (theo mẫu có sẳn);\n+ In vân tay hai ngón trỏ vào chỉ bản, tờ khai (theo mẫu) hoặc thu vân tay hai ngón trỏ qua máy lấy vân tay tự động để in vào chỉ bản và CMND.\n+ Viết giấy biên nhận trao cho người nộp\n- Thời gian: Từ thứ 2 đến sáng thứ 7 hàng tuần (ngày lễ nghỉ)",
+      "link": "https://www.tracuuphapluat.info/2010/04/thu-tuc-cap-lai-chung-minh-nhan-dan-tai.html"
+    },
+    {
+      "id": 11,
+      "key": "Chụp ảnh chứng minh thư có cần mặc áo có cổ không ?",
+      "key": "MAC AO KHI CHUP ANH",
+      "value": "hiện tại pháp luật không quy định bắt buộc chụp ảnh CMND/Thẻ căn cước công dân phải mặc áo gì, không được trang điểm hay không được nhuộm tóc hay không… Tuy nhiên, thực tế khi đi chụp ảnh CMND/Thẻ căn cước công dân nên mặc áo sơ mi màu trắng, trang điểm nhạt hoặc không trang điểm… để dễ dàng cho việc đối chiếu, nhận diện khi sử dụng Thẻ căn cước công dân cho các thủ tục sau này.",
+      "link": "https://hoidap.thuvienphapluat.vn/hoi-dap/41791-hd-co-duoc-phep-trang-diem-khi-chup-anh-the-can-cuoc-cong-dan-khong.html"
+    },
+    {
+      "id": 12,
+      "key": "Đi làm chứng minh thư nhân dân",
+      "key": "THU TUC",
+      "value": "Anh/chị cung cấp những giấy tờ sau:\n- Hộ khẩu thường trú (sổ hộ khẩu, sổ hộ khẩu gia đình hoặc giấy chứng nhận nhân khẩu tập thể đã được cấp).\n- Kê khai tờ khai cấp CMND (theo mẫu).\n- Lăn tay, chụp ảnh hoặc công dân nộp ảnh theo quy định.",
+      "link": "http://csqlhc.bocongan.gov.vn/vi-VN/Home/Chung-minh-nhan-dan-26/17/Thu-tuc-ve-cap-Chung-minh-nhan-dan-CMND.aspx"
+    },
+    {
+      "id": 13,
+      "key": "Bao nhiêu tuổi thì được làm chứng minh thư",
+      "key": "DO TUOI",
+      "value": "Theo Điều 3 Nghị định 05/1999/NĐ-CP thì Công dân Việt Nam từ đủ 14 tuổi trở lên, đang cư trú trên lãnh thổ Việt Nam (sau đây gọi tắt là công dân) có nghĩa vụ đến cơ quan công an nơi đăng ký hộ khẩu thường trú làm thủ tục cấp Chứng minh nhân dân theo quy định của Nghị định này.",
+      "link": "http://csqlhc.bocongan.gov.vn/vi-VN/Home/Chung-minh-nhan-dan-26/17/Thu-tuc-ve-cap-Chung-minh-nhan-dan-CMND.aspx"
+    },
+    {
+      "id": 14,
+      "key": "Làm chứng minh thư thì mất bao tiền",
+      "key": "CHI PHI",
+      "value": "Theo quy định tại Điều 2 Thông tư số 155/2012/TT-BTC ngày 20 tháng 9 năm 2012 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng lệ phí chứng minh nhân dân mới, thì trường hợp thu nhận ảnh trực tiếp (ảnh thu qua camera), thì mức thu lệ phí đối với cấp mới là 30.000 đồng, cấp đổi là 50.000 đồng và cấp lại là 70.000 đồng. Đối với trường hợp thu nhận ảnh gián tiếp (chưa tính tiền chụp ảnh), thì mức thu lệ phí đối với cấp mới là 20.000 đồng, cấp đổi là 40.000 đồng và cấp lại là 60.000 đồng.\n\nCông dân thường trú tại các xã, thị trấn miền núi; các xã biên giới; các huyện đảo nộp lệ phí Chứng minh nhân dân mới bằng 50% mức thu nêu trên.",
+      "link": "https://luatduonggia.vn/muc-le-phi-khi-lam-chung-minh-nhan-dan/"
+    },
+    {
+      "id": 15,
+      "key": "Ra công an phường có làm được cmt không?",
+      "key": "LAM TAI CONG AN PHUONG",
+      "value": "Đến công an cấp huyện nơi đăng kí thường trú hoặc công an tỉnh theo phân cấp",
+      "link": "https://www.kienbank.com/lam-chung-minh-nhan-dan-thu-may/"
+    },
+    {
+      "id": 16,
+      "key": "Cần những điều kiện gì thì được cấp chứng minh tḥư?",
+      "key": "DIEU KIEN CAP CHUNG MINH THU",
+      "value": "Theo nghị định 05/1999/NĐ-CP, công dân VN đủ 14 tuổi trở lên, đang cư trú trên lãnh thổ VN có nghĩa vụ đến cơ quan công an nơi đăng ký hộ khẩu thường trú (HKTT) làm thủ tục cấp CMND.",
+      "link": "https://tuoitre.vn/dieu-kien-de-duoc-cap-chung-minh-nhan-dan-180530.htm"
+    },
+    {
+      "id": 17,
+      "key": "Mình có thẻ chứng minh nhân dân rồi có cần chuyển sang thẻ căn cước công dân không",
+      "key": "CHUYEN TU CMND SANG TCC",
+      "value": "Theo quy định của Luật Căn cước công dân thì công dân có thể sử dụng CMND cho đến hết thời hạn hoặc đổi sang thẻ Căn cước công dân để phục vụ việc giao dịch và hai loại giấy tờ này đều có giá trị pháp lý như nhau.",
+      "link": "http://baochinhphu.vn/Tra-loi-cong-dan/The-Can-cuoc-cong-dan-va-CMND-khac-nhau-the-nao/245930.vgp"
+    },
+    {
+      "id": 18,
+      "key": "Bao lâu thì phải làm lại thẻ căn cước công dân",
+      "key": "HAN SU DUNG TCC",
+      "value": "Theo quy định của Luật Căn cước công dân thì công dân có thể sử dụng CMND cho đến hết thời hạn hoặc đổi sang thẻ Căn cước công dân để phục vụ việc giao dịch và hai loại giấy tờ này đều có giá trị pháp lý như nhau.",
+      "link": "http://baochinhphu.vn/Tra-loi-cong-dan/The-Can-cuoc-cong-dan-va-CMND-khac-nhau-the-nao/245930.vgp"
+    },
+    {
+      "id": 20,
+      "key": "Làm gì khi mất chứng minh thư nhân dân",
+      "key": "MAT CMND",
+      "value": "Bạn thực hiện thủ tục xin cấp lại CMND tại cơ quan công an cấp huyện nơi đăng ký hộ khẩu thường trú.\n \nCăn cứ Điều 6 Nghị định 05/1999/NĐ-CP; mục 2 Nghị định 170/2007/NĐ-CP thì bạn cần nộp:\n \n- Đơn trình bày nêu rõ lý do xin cấp lại chứng minh nhân dân và đơn này phải có xác nhận của công an phường, xã, thị trấn nơi thường trú.\n \nSau đó:\n \n- Bạn xuất trình hộ khẩu thường trú;\n \n- Chụp ảnh;\n \n- In vân tay hai ngón trỏ;\n \n- Khai tờ khai xin cấp Chứng minh nhân dân;\n \n- Nộp lệ phí.",
+      "link": "https://luatminhgia.com.vn/hoi-dap-dan-su/thu-tuc-xin-cap-lai-chung-minh-nhan-dan-sau-khi-bi-mat.aspx"
+    },
+    {
+      "id": 21,
+      "key": "Có bao nhiêu đợt làm thẻ chứng minh thư",
+      "key": "DOT LAM THE CMND",
+      "value": "- Thời gian tiếp nhận hồ sơ: Từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ ngày lễ, tết).\n\n- Thời gian trả kết quả: Từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ ngày lễ, tết).",
+      "link": "https://www.giadinhmoi.vn/tin-tuc/muon-mau/lam-the-can-cuoc-o-dau-ha-noi-thoi-gian-lam-the-nao-can-chuan-bi-giay-to-gi-d7490.html"
+    },
+    {
+      "id": 22,
+      "key": "Công an quận làm thẻ chứng minh thư vào những ngày nào",
+      "key": "DOT LAM THE CMND",
+      "value": "- Thời gian tiếp nhận hồ sơ: Từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ ngày lễ, tết).\n\n- Thời gian trả kết quả: Từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ ngày lễ, tết).",
+      "link": "https://www.giadinhmoi.vn/tin-tuc/muon-mau/lam-the-can-cuoc-o-dau-ha-noi-thoi-gian-lam-the-nao-can-chuan-bi-giay-to-gi-d7490.html"
+    },
+    {
+      "id": 23,
+      "key": "Nếu chuyển hộ khẩu thì có cần làm lại căn cước công dân không",
+      "key": "LAM TCC KHI CHUYEN HO KHAU",
+      "value": "Trường hợp bạn đã chuyển hộ khẩu vào tỉnh khác thì phải làm thủ tục đổi chứng minh nhân dân tại cơ quan Công an cấp quận, huyện nơi bạn có đăng ký thường trú. Theo đó, để không ảnh hưởng đến thủ tục ly hôn cũng như đăng ký tạm trú sau này thì bạn nên đi làm lại chứng minh nhân dân.",
+      "link": "https://luatminhgia.com.vn/hoi-dap-dan-su/chuyen-ho-khau-phai-lam-lai-chung-minh-thu-khong-.aspx"
+    },
+    {
+      "id": 25,
+      "key": "Phí chuyển phát nhanh chứng minh thư về nhà là bao nhiêu",
+      "key": "PHI CHUYEN PHAT NHANH",
+      "value": "Cước phí chuyển phát phải trả cho mỗi gói bưu gửi CMND theo quy định là 20.000 đồng. Mặt khác, trong quá trình cấp, đổi CMND, nếu có phát sinh về các giấy tờ, thủ tục pháp lý liên quan thì bưu điện sẽ nhanh chóng thông báo cho người dân qua số điện thoại, để họ liên hệ với cơ quan công an bổ sung kịp thời, rút ngắn thời gian làm CMND, tránh phải đi lại nhiều lần",
+      "link": "http://baodaknong.org.vn/xa-hoi/chuyen-chung-minh-nhan-dan-qua-duong-buu-dien-nhanh-chong-tien-loi-va-an-toan-cho-nguoi-dan-18426.html"
+    },
+    {
+      "id": 27,
+      "key": "Chứng minh nhân dân như thế nào thì phải cấp lại",
+      "key": "CAP LAI CMND",
+      "value": "Đổi, cấp lại Chứng minh nhân dân\n1- Những trường hợp sau đây phải làm thủ tục đổi Chứng minh nhân dân :\na) Chứng minh nhân dân hết thời hạn sử dụng;\nb) Chứng minh nhân dân hư hỏng không sử dụng được;\nc) Thay đổi họ, tên, chữ đệm, ngày, tháng, năm sinh;\nd) Thay đổi nơi đăng ký hộ khẩu thường trú ngoài phạm vi tỉnh, thành phố trực thuộc Trung ương;\ne) Thay đổi đặc điểm nhận dạng.\n2- Trường hợp bị mất Chứng minh nhân dân thì phải làm thủ tục cấp lại.",
+      "link": "https://luatduonggia.vn/khi-lam-thu-tuc-cap-lai-chung-minh-thu-se-duoc-cap-so-cu-hay-so-moi/"
+    },
+    {
+      "id": 30,
+      "key": "Thông tin trên chứng minh nhân dân bị sai",
+      "key": "SAI THONG TIN TREN CMND",
+      "value": "Thủ tục cấp đổi như sau:\n\n+ Đơn trình bày nêu rõ lý do xin đổi, cấp lại chứng minh nhân dân. Trường hợp cấp lại thì đơn phải có xác nhận của công an phường, xã, thị trấn nơi thường trú;\n\n+ Xuất trình hộ khẩu thường trú;\n\n+ Chụp ảnh;\n\n+ In vân tay hai ngón trỏ;\n\n+ Khai tờ khai xin cấp Chứng minh nhân dân;\n\n+ Nộp lại Chứng minh nhân dân;",
+      "link": "https://luatduonggia.vn/sai-ten-tren-chung-minh-nhan-nhan-dan-phai-lam-the-nao/"
+    },
+    {
+      "id": 33,
+      "key": "Thẻ chứng minh thư có hiệu lực ở nước ngoài không",
+      "key": "HIEU LUC CUA THE CMND",
+      "value": "Thẻ căn cước công dân có giá trị để chứng minh căn cước công dân của chủ thẻ để thực hiện các giao dịch trên lãnh thổ Việt Nam.",
+      "link": "https://timviec365.vn/blog/the-can-cuoc-cong-dan-la-gi-new3837.html"
+    },
+    {
+      "id": 34,
+      "key": "Chức năng của thẻ căn cước công dân là gì",
+      "key": "CHUC NANG THE CMND",
+      "value": "\"Thẻ căn cước chính là loại thể dùng để thể hiện những thông tin có liên quan tới căn cước của một công dân. Đây chính là loại thẻ thể hiện được những thông tin cơ bản nhất về lai lịch cũng như đặc điểm nhận dạng của một công dân cụ thể.\n\nNói một cách đơn giản, bạn có thể hiểu thẻ căn cước là một loại chứng minh thư nhân dân kiểu mới. Chứng minh nhân dân được làm từ giấy còn thẻ căn cước công dân bởi được làm bằng nhựa. Chính xác nhất chính là nó được chế tạo ra từ phôi thẻ từ gần giống với thẻ ngân hàng. Trông nó bền và đẹp hơn rất nhiều so với chứng minh nhân dân.\"",
+      "link": "https://timviec365.vn/blog/the-can-cuoc-cong-dan-la-gi-new3837.html"
+    },
+    {
+      "id": 35,
+      "key": "Khai thông tin trên thẻ căn cước thông tin",
+      "key": "KHAI THONG TIN TREN TCC",
+      "value": "Công dân điền vào Tờ khai căn cước công dân. Mẫu tờ khai căn cước công dân (Mẫu CC01) được dùng để công dân kê khai thông tin về nhân thân của mình khi có yêu cầu cấp, đổi, cấp lại thẻ CCCD.",
+      "link": "https://www.tracuuphapluat.info/2019/02/cach-ghi-mau-to-khai-can-cuoc-cong-dan.html"
+    },
+    {
+      "id": 36,
+      "key": "Làm thế nào để làm nhanh thẻ căn cước công dân",
+      "key": "LAM NHANH TCC",
+      "value": "a) Công dân điền vào Tờ khai căn cước công dân;\nb) Cán bộ tiếp nhận hồ sơ đề nghị cấp thẻ Căn cước công dân kiểm tra, đối chiếu thông tin về công dân trong Tờ khai căn cước công dân với thông tin trong Cơ sở dữ liệu quốc gia về dân cư đã được kết nối với Cơ sở dữ liệu căn cước công dân để xác định chính xác người cần cấp thẻ và thống nhất các nội dung thông tin về công dân; trường hợp công dân chưa có thông tin hoặc thông tin có sự thay đổi, chưa được cập nhật vào Cơ sở dữ liệu quốc gia về dân cư thì yêu cầu công dân xác định thông tin chính xác và xuất trình các giấy tờ hợp pháp về những thông tin cần ghi trong Tờ khai căn cước công dân để kiểm tra và cập nhật thông tin vào cơ sở dữ liệu;\nc) Trường hợp công dân chuyển từ Chứng minh nhân dân 9 số, Chứng minh nhân dân 12 số sang thẻ Căn cước công dân thì cán bộ tiếp nhận hồ sơ thu, nộp, xử lý Chứng minh nhân dân theo quy định tại Điều 15 của Thông tư này.Trường hợp Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước công dân chưa đi vào vận hành thì yêu cầu công dân xuất trình Sổ hộ khẩu.\nd) Cán bộ cơ quan quản lý căn cước công dân chụp ảnh, thu thập vân tay, đặc điểm nhận dạng của người đến làm thủ tục cấp thẻ Căn cước công dân để in trên Phiếu thu nhận thông tin căn cước công dân và thẻ Căn cước công dân theo quy định.\nđ) Cán bộ cơ quan quản lý căn cước công dân cấp giấy hẹn trả thẻ Căn cước công dân cho người đến làm thủ tục. Trường hợp hồ sơ, thủ tục chưa đầy đủ theo quy định thì hướng dẫn công dân hoàn thiện để cấp thẻ Căn cước công dân;\ne) Cơ quan nơi tiếp nhận hồ sơ cấp giấy xác nhận số Chứng minh nhân dân (nếu có) và trả thẻ Căn cước công dân theo thời gian và địa điểm trong giấy hẹn. Nơi trả thẻ Căn cước công dân là nơi làm thủ tục cấp thẻ; trường hợp công dân có yêu cầu trả thẻ tại địa điểm khác thì công dân ghi cụ thể địa chỉ nơi trả thẻ tại Tờ khai căn cước công dân. Cơ quan nơi tiếp nhận hồ sơ trả thẻ Căn cước công dân tại địa điểm theo yêu cầu của công dân bảo đảm đúng thời gian và công dân phải trả phí dịch vụ chuyển phát theo quy định.",
+      "link": "https://www.msn.com/vi-vn/news/newsother/thủ-tục-làm-thẻ-căn-cước-công-dân-năm-2019-như-thế-nào/ar-BBUsXW9"
+    },
+    {
+      "id": 38,
+      "key": "Tai sao phải làm thẻ căn cước công dân",
+      "key": "TAI SAO LAM TCC",
+      "value": "Thẻ căn cước chính là loại thể dùng để thể hiện những thông tin có liên quan tới căn cước của một công dân. Đây chính là loại thẻ thể hiện được những thông tin cơ bản nhất về lai lịch cũng như đặc điểm nhận dạng của một công dân cụ thể.\n\nNói một cách đơn giản, bạn có thể hiểu thẻ căn cước là một loại chứng minh thư nhân dân kiểu mới. Chứng minh nhân dân được làm từ giấy còn thẻ căn cước công dân bởi được làm bằng nhựa. Chính xác nhất chính là nó được chế tạo ra từ phôi thẻ từ gần giống với thẻ ngân hàng. Trông nó bền và đẹp hơn rất nhiều so với chứng minh nhân dân.",
+      "link": "https://timviec365.vn/blog/the-can-cuoc-cong-dan-la-gi-new3837.html"
+    },
+    {
+      "id": 39,
+      "key": "thẻ cmnd bị mờ tên rồi thì có dùng được không",
+      "key": "HIEU LUC THE CMND BI MO",
+      "value": "Khoản 1 Điều 5 Nghị định 05/1999/NĐ-CP quy định Những trường hợp sau đây phải làm thủ tục đổi Chứng minh nhân dân :\n\na) Chứng minh nhân dân hết thời hạn sử dụng;\n\nb) Chứng minh nhân dân hư hỏng không sử dụng được;\n\nc) Thay đổi họ, tên, chữ đệm, ngày, tháng, năm sinh;\n\nd) Thay đổi nơi đăng ký hộ khẩu thường trú ngoài phạm vi tỉnh, thành phố trực thuộc Trung ương;\n\ne) Thay đổi đặc điểm nhận dạng.\n",
+      "link": "https://nganhangphapluat.thukyluat.vn/tu-van-phap-luat/quyen-dan-su/hinh-cmnd-bi-nhoe-co-con-gia-tri-su-dung-khong-282689"
+    },
+    {
+      "id": 40,
+      "key": "Làm thế nào để đổi CCCD hết thời hạn sử dụng",
+      "key": "DOI THE CCCD HET THOI HAN",
+      "value": "Bước 1: Công dân điền vào Tờ khai Căn cước công dân tại Đội Cảnh sát quản lý hành chính về trật tự xã hội, Công an cấp huyện.\n\nBước 2:\n\n+ Cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu thông tin về công dân trong Tờ khai căn cước công dân với thông tin trong Cơ sở dữ liệu quốc gia về dân cư để xác định chính xác người cần đổi thẻ:\n\nCán bộ tiếp nhận hồ sơ thu lại thẻ Căn cước công dân.\n\nTrường hợp công dân thông tin có sự thay đổi, chưa được cập nhật vào Cơ sở dữ liệu quốc gia về dân cư thì yêu cầu công dân xác định thông tin chính xác và xuất trình các giấy tờ hợp pháp về những thông tin cần ghi trong Tờ khai căn cước công dân.\n\nTrường hợp đủ điều kiện, thủ tục thì tiến hành thu nhận vân tay, chụp ảnh chân dung của công dân, Phiếu thu nhận thông tin căn cước công dân (mẫu CC02) chuyển cho công dân kiểm tra xác nhận thông tin, thu lệ phí theo quy định, in giấy hẹn trả thẻ Căn cước công dân cho công dân.\n\nTrường hợp đủ điều kiện nhưng thông tin chưa đầy đủ, chính xác thì hướng dẫn công dân bổ sung hoặc kê khai lại. Nếu thiếu giấy tờ liên quan theo quy định thì hướng dẫn bằng văn bản cho công dân, ghi rõ nội dung cần bổ sung.\n\nTrường hợp qua đối chiếu thông tin thấy không đủ điều kiện thì trả lại hồ sơ cho công dân và ghi rõ lý do vào Tờ khai căn cước công dân.\nThời gian tiếp nhận hồ sơ: Từ thứ 2 đến thứ 6 hàng tuần (trừ ngày lễ, tết).\n\nBước 3: Thời gian trả kết quả: Từ thứ 2 đến thứ 6 hàng tuần (trừ ngày lễ, tết); nơi trả kết quả tại cơ quan Công an nơi tiếp nhận hồ sơ hoặc trả qua đường bưu điện.",
+      "link": "http://bocongan.gov.vn/thu-tuc-hanh-chinh/doi-the-can-cuoc-cong-dan-812.html"
+    },
+    {
+      "id": 42,
+      "key": "Chứng minh thư nhân dân hỏng",
+      "key": "HONG THE",
+      "value": "Khoản 1 Điều 5 Nghị định 05/1999/NĐ-CP quy định Những trường hợp sau đây phải làm thủ tục đổi Chứng minh nhân dân :\n\na) Chứng minh nhân dân hết thời hạn sử dụng;\n\nb) Chứng minh nhân dân hư hỏng không sử dụng được;\n\nc) Thay đổi họ, tên, chữ đệm, ngày, tháng, năm sinh;\n\nd) Thay đổi nơi đăng ký hộ khẩu thường trú ngoài phạm vi tỉnh, thành phố trực thuộc Trung ương;\n\ne) Thay đổi đặc điểm nhận dạng.\n",
+      "link": "https://nganhangphapluat.thukyluat.vn/tu-van-phap-luat/quyen-dan-su/hinh-cmnd-bi-nhoe-co-con-gia-tri-su-dung-khong-282689"
+    },
+    {
+      "id": 46,
+      "key": "Có bắt buộc đổi chứng minh thư thành căn cước công dân không ?",
+      "key": "CO BAT BUOC DOI CMND SANG TCC",
+      "value": "Theo quy định của Luật Căn cước công dân thì công dân có thể sử dụng CMND cho đến hết thời hạn hoặc đổi sang thẻ Căn cước công dân để phục vụ việc giao dịch và hai loại giấy tờ này đều có giá trị pháp lý như nhau.",
+      "link": "http://baochinhphu.vn/Tra-loi-cong-dan/The-Can-cuoc-cong-dan-va-CMND-khac-nhau-the-nao/245930.vgp"
+    },
+    {
+      "id": 47,
+      "key": "Trường hợp nào thì không thể sử dụng chứng minh thư nữa ?",
+      "key": "KHI NAO KHONG THE DUNG CMND",
+      "value": "Khoản 1 Điều 5 Nghị định 05/1999/NĐ-CP quy định Những trường hợp sau đây phải làm thủ tục đổi Chứng minh nhân dân :\n\na) Chứng minh nhân dân hết thời hạn sử dụng;\n\nb) Chứng minh nhân dân hư hỏng không sử dụng được;\n\nc) Thay đổi họ, tên, chữ đệm, ngày, tháng, năm sinh;\n\nd) Thay đổi nơi đăng ký hộ khẩu thường trú ngoài phạm vi tỉnh, thành phố trực thuộc Trung ương;\n\ne) Thay đổi đặc điểm nhận dạng.\n",
+      "link": "https://nganhangphapluat.thukyluat.vn/tu-van-phap-luat/quyen-dan-su/hinh-cmnd-bi-nhoe-co-con-gia-tri-su-dung-khong-282689"
+    },
+    {
+      "id": 48,
+      "key": "Thời gian làm căn cước công dân",
+      "key": "THOI GIAN LAM TCC",
+      "value": "Thời gian quy định thực hiện để được câp căn cước công dân được quy định như sau:\n\nTính từ ngày người yêu cầu nộp đầy đủ hồ sơ giấy tờ theo quy đinh thì thì tại các thành phố hay thị xã thì trong vòng bảy ngày nếu là làm thủ tục cấp mới lần đầu con đối với trường hợp yêu cầu cấp lại thì trong vòng 15 ngày làm việc không tính ngày nghỉ thì cơ quan có thẩm quyền cấp phải trả thẻ cho người yêu cầu.\n\nTrường hợp người yêu cầu cấp sống ở vùng biên giới, vùng sâu vùng xa, vùng hải đảo giao thông đi lại khó khăn thì thời gian lam thủ tục cấp thẻ kể từ ngày nhận được đầy đủ hồ sơ hợp phù hợp sẽ là 20 ngày. Còn những vùng còn lại thì không đực vượt quá 15 ngày làm việc. Thời gian cấp thẻ này có thể thay đổi để nhằm đảm bảo rút ngắn thủ tục hành chính, đỡ chi phí và thời gian đi lại của công dân cũng như đáp ứng được quyền và lợi ích hợp pháp cua công dân.",
+      "link": "https://luatduonggia.vn/lam-the-can-cuoc-mat-bao-lau-thoi-gian-xin-cap-the-cccd/"
+    },
+    {
+      "id": 50,
+      "key": "Ảnh căn cước công dân",
+      "key": "QUY DINH ANH TCC",
+      "value": "Về quy cách, thẻ có hình chữ nhật, kích thước 85,6 x 53,98 mm. Mặt trước bên trái in ảnh của người được cấp thẻ có cỡ 20 x 30 mm, phía trên có hình quốc huy; thời hạn của thẻ. Bên phải thẻ có số định danh cá nhân; họ và tên khai sinh; họ và tên gọi khác; ngày, tháng, năm sinh; giới tính; dân tộc; quê quán; nơi thường trú.",
+      "link": "https://news.zing.vn/bo-cong-an-gioi-thieu-mau-the-can-cuoc-cong-dan-post411166.html"
+    },
+    {
+      "id": 51,
+      "key": "trường hợp thay đổi nơi đăng ký hộ khẩu thường trú ngoài phạm vi tỉnh, thành phố trực thuộc Trung ương có phải thay đổi cccd",
+      "key": "DOI NOI DANG KY TRUC THUOC TINH THANH PHO CO CAN DOI TCC",
+      "value": "Trường hợp bạn đã chuyển hộ khẩu vào tỉnh khác thì phải làm thủ tục đổi chứng minh nhân dân tại cơ quan Công an cấp quận, huyện nơi bạn có đăng ký thường trú. Theo đó, để không ảnh hưởng đến thủ tục ly hôn cũng như đăng ký tạm trú sau này thì bạn nên đi làm lại chứng minh nhân dân. ",
+      "link": "https://luatminhgia.com.vn/hoi-dap-dan-su/chuyen-ho-khau-phai-lam-lai-chung-minh-thu-khong-.aspx"
+    },
+    {
+      "id": 54,
+      "key": "Thẻ Căn cước công dân được đổi, cấp lại khi nào",
+      "key": "TCC DOI KHI NAO",
+      "value": "1. Những trường hợp sau đây phải làm thủ tục đổi Chứng minh nhân dân:\na) Chứng minh nhân dân hết thời hạn sử dụng;\nb) Chứng minh nhân dân hư hỏng không sử dụng được;\nc) Thay đổi họ, tên, chữ đệm, ngày, tháng, năm sinh;\nd) Thay đổi nơi đăng ký hộ khẩu thường trú ngoài phạm vi tỉnh, thành phố trực thuộc Trung ương;\ne) Thay đổi đặc điểm nhận dạng.\n2. Trường hợp bị mất Chứng minh nhân dân thì phải làm thủ tục cấp lại.",
+      "link": "https://luatminhkhue.vn/thu-tuc-xin-cap-lai-chung-minh-nhan-dan-bi-mat-theo-quy-dinh-moi.aspx"
+    },
+    {
+      "id": 55,
+      "key": "Ai được cấp thẻ căn cước công dân",
+      "key": "DOI TUONG DUOC CAP TCC",
+      "value": "Công dân từ 14 tuổi trở lên\n\nĐăng ký thường trú tại tỉnh đã thực hiện sử dụng thẻ CCCD",
+      "link": "https://timviec365.vn/blog/the-can-cuoc-cong-dan-la-gi-new3837.html"
+    },
+    {
+      "id": 56,
+      "key": "Thời hạn sử dụng thẻ Căn cước công dân trong bao lâu",
+      "key": "HAN SU DUNG TCC",
+      "value": "Theo Luật Quốc tịch, thẻ phải được đổi khi công dân 25, 40 và 60 tuổi.",
+      "link": "https://timviec365.vn/blog/the-can-cuoc-cong-dan-la-gi-new3837.html"
+    },
+    {
+      "id": 57,
+      "key": "Chứng minh nhân dân 12 số có khác gì với thẻ căn cước công dân",
+      "key": "CMND 12 SO KHAC TCC",
+      "value": "Nói về bản chất thì CMND và CCCD giống nhau, là loại giấy tờ pháp lý chứng minh nhân thân. Về hình dáng, màu sắc, nội dung in trên thẻ CCCD cơ bản giống CMND loại 12 số. Tuy nhiên, về nội dung thẻ CCCD có 19 mục, trong khi CMND có 20 mục, bỏ phần \"Họ và tên gọi khác\". Thẻ CCCD không có phần khai “Dân tộc”, nhưng có thêm mục “Quốc tịch”. Dấu in trên CMND là con dấu của Bộ Công an, nhưng trên thẻ CCCD là hình Quốc huy. Một điểm khác nhau nữa là hạn sử dụng, hạn của CMND là 15 năm. Với thẻ CCCD, sau lần cấp mới, mọi người phải đi đổi vào các năm 25 tuổi, 40 tuổi và 60 tuổi. Sau 60 tuổi công dân không cần đổi.",
+      "link": "http://phunudanang.org.vn/vn/2855-diem-giong-va-khac-giua-the-can-cuoc-va-chung-minh-thu.html"
+    },
+    {
+      "id": 58,
+      "key": "Giấy tờ để cấp và đổi lại thẻ căn cước công dân",
+      "key": "GIAY TO CAP VA DOI LAI",
+      "value": "Chuẩn bị hồ sơ gồm\n- Sổ hộ khẩu. (bản chính)\n- Đơn đề nghị cấp CMND (mẫu CM3), có dán ảnh 3x4 (điền đẩy đủ thông tin trong mẫu, không cần phải có xác nhận của Công an phường, xã, thị trấn)\n- Giấy tờ chứng minh thuộc diện không thu lệ phí đổi CMND (bản photocopy kèm bản chính để đối chiếu).\nLưu ý: Ảnh chụp 3x4 kiểu CMND là kiểu chụp mắt nhìn thẳng, không đeo kính, không để râu, tóc không trùm tai, trùm gáy, nếu là nữ không để hở ngực.",
+      "link": "https://luatminhkhue.vn/thu-tuc-xin-cap-lai-chung-minh-nhan-dan-bi-mat-theo-quy-dinh-moi.aspx"
+    },
+    {
+      "id": 59,
+      "key": "Trình tự cấp và đổi lại thẻ chứng minh nhân dân",
+      "key": "TRINH TU DOI VA CAP LAI THE",
+      "value": "Bước 1: Chuẩn bị hồ sơ gồm\n- Sổ hộ khẩu. (bản chính)\n- Đơn đề nghị cấp CMND (mẫu CM3), có dán ảnh 3x4 (điền đẩy đủ thông tin trong mẫu, không cần phải có xác nhận của Công an phường, xã, thị trấn)\n- Giấy tờ chứng minh thuộc diện không thu lệ phí đổi CMND (bản photocopy kèm bản chính để đối chiếu).\nLưu ý: Ảnh chụp 3x4 kiểu CMND là kiểu chụp mắt nhìn thẳng, không đeo kính, không để râu, tóc không trùm tai, trùm gáy, nếu là nữ không để hở ngực.\nBước 2: Nộp hồ sơ tại Tổ cấp CMND (thuộc Đội CSQLHC về TTXH) Công an cấp huyện\n- Cán bộ công an sẽ hướng dẫn:\n+ Khai tờ khai cấp CMND (theo mẫu có sẳn do công an cấp).\n+ Chụp ảnh và in vân tay hai ngón trỏ vào chỉ bản, tờ khai (theo mẫu) hoặc thu vân tay hai ngón trỏ qua máy lấy vân tay tự động để in vào chỉ bản và CMND.\n+ Viết giấy biên nhận trao cho người nộp.\n- Thời gian làm CMND: Từ thứ 2 đến thứ sáng thứ 7 hàng tuần (ngày lễ nghỉ).\nBước 3: Nhận Chứng minh nhân dân\n- Người nhận đưa giấy biên nhận CMND tại trụ sở Công an cấp huyện từ thứ 2 đến sáng thứ 7 hàng tuần (ngày lễ nghỉ) để lấy CMND.\n- Thời hạn giải quyết:\n+ Tại Công an thành phố: Không quá 06 ngày làm việc nếu không qua tra cứu và không quá 10 ngày làm việc nếu phải qua tra cứu (kể từ ngày nhận hồ sơ).\n+ Tại Công an huyện đồng bằng: Không quá 10 ngày làm việc nếu không qua tra cứu và không quá 15 ngày làm việc nếu phải qua tra cứu (kể từ ngày nhận hồ sơ).\n+ Tại Công an các huyện miền núi, hải đảo: Không quá 15 ngày làm việc nếu không qua tra cứu và không quá 20 ngày làm việc nếu tra cứu (kể từ ngày nhận hồ sơ).",
+      "link": "https://luatminhkhue.vn/thu-tuc-xin-cap-lai-chung-minh-nhan-dan-bi-mat-theo-quy-dinh-moi.aspx"
+    },
+    {
+      "id": 60,
+      "key": "Thẻ Căn cước công dân có thể thay thế những giấy tờ tùy thân nào",
+      "key": "TCC CO THE THAY THE GIAY TO NAO",
+      "value": "thẻ Căn cước công dân là giấy tờ của công dân Việt Nam có giá trị chứng minh về thông tin cá nhân nhằm mục đích giảm các giấy tờ công dân, nên có thể sử dụng để thay thế sổ hộ khẩu, giấy chứng nhận kết hôn, sổ bảo hiểm xã hội, thẻ bảo hiểm y tế và các giấy tờ khác có thể hiện rõ thông tin cá nhân. Ngoài ra, thì trong một số trường hợp Căn cước công dân có thể sử dụng để thay thế hộ chiếu nếu như Việt Nam và nước ngoài ký kết điều ước hoặc thỏa thuận quốc tế cho phép công dân nước ký kết được sử dụng thẻ Căn cước công dân thay cho việc sử dụng hộ chiếu trên lãnh thổ của nhau.",
+      "link": "https://nganhangphapluat.thukyluat.vn/tu-van-phap-luat/quyen-dan-su/the-can-cuoc-cong-dan-co-the-thay-the-cho-nhung-giay-to-nao-189523"
+    },
+    {
+      "id": 62,
+      "key": "Thời gian sử dụng thẻ cccd là bao lâu ?",
+      "key": "THOI GIAN SU DUNG TCC",
+      "value": "Căn cứ vào Điều 21 Luật căn cước công dân 2014 quy định về độ tuổi đổi thẻ Căn cước công dân như sau:\n1. Thẻ Căn cước công dân phải được đổi khi công dân đủ 25 tuổi, đủ 40 tuổi và đủ 60 tuổi.\n2. Trường hợp thẻ Căn cước công dân được cấp, đổi, cấp lại trong thời hạn 2 năm trước tuổi quy định tại khoản 1 Điều này thì vẫn có giá trị sử dụng đến tuổi đổi thẻ tiếp theo.\nKhác với chứng minh thư nhân dân, thẻ Căn cước công dân không có thời hạn mà phải được đổi khi công dân đủ 25 tuổi, đủ 40 tuổi và đủ 60 tuổi.",
+      "link": "https://vndoc.com/thoi-han-cua-the-can-cuoc-cong-dan/download"
+    },
+    {
+      "id": 69,
+      "key": "Bị mất cccd có cần xin xác nhận của phường,xã không",
+      "key": "BI MAT TCC CO CAN XIN XAC NHAN",
+      "value": "Thủ tục cấp lại CMND bị mất\n\nBước 1: Chuẩn bị hồ sơ gồm:\n\n– Sổ hộ khẩu.\n\n– Đơn đề nghị cấp CMND (Mẫu CM3), có ảnh đóng dấu giáp lai và xác nhận của Công an phường, xã, thị trấn.\n\n– 02 ảnh 3×4 (mắt nhìn thẳng, không đeo kính, không để râu, tóc không trùm tai, trùm gáy, nếu là phụ nữ không để hở ngực).\n\n– Giấy tờ chứng minh thuộc diện không thu lệ phí cấp CMND (bản photocopy kèm bản chính để đối chiếu).\n\nBước 2: Nộp hồ sơ tại Đội cấp CMND, phòng CSQLHC về TTXH Công an tỉnh\n\n– Cán bộ công an sẽ hướng dẫn:\n\n+ Kê khai tờ khai cấp CMND (theo mẫu có sẳn);\n\n+ In vân tay hai ngón trỏ vào chỉ bản, tờ khai (theo mẫu) hoặc thu vân tay hai ngón trỏ qua máy lấy vân tay tự động để in vào chỉ bản và CMND.\n\n+ Viết giấy biên nhận trao cho người nộp\n\n– Thời gian: Từ thứ 2 đến sáng thứ 7 hàng tuần (ngày lễ nghỉ)\n\nBước 3: Nhận CMND\n\n– Người nhận đưa giấy biên nhận từ thứ 2 đến sáng thứ 7 hàng tuần (ngày lễ nghỉ) để nhận lại CMND tại địa điểm đã làm CMND.\n",
+      "link": "https://luatduonggia.vn/dieu-kien-va-thu-tuc-cap-lai-chung-minh-nhan-dan-khi-bi-mat/"
+    },
+    {
+      "id": 71,
+      "key": "Thay đổi thông tin về họ,chữ đệm,đặc điểm nhận dạng có được cấp lại thẻ không",
+      "key": "CAP LAI THE KHI THAY DOI THONG TIN VA DAC DIEM NHAN DANG",
+      "value": "Thẻ được đổi khi thuộc một trong các trường hợp sau:\n\n- Khi công dân đủ 25 tuổi, đủ 40 tuổi và đủ 60 tuổi.\n\n- Thẻ bị hư hỏng không sử dụng được.\n\n- Thay đổi thông tin về họ, chữ đệm, tên, đặc điểm nhận dạng.\n\n- Xác định lại giới tính, quê quán.\n\n- Có sai sót về thông tin trên thẻ Căn cước công dân.\n\n- Khi công dân có yêu cầu.\n\nThẻ được cấp lại trong các trường hợp sau:\n\n- Bị mất.\n\n- Được trở lại quốc tịch Việt Nam.",
+      "link": "http://chauduc.baria-vungtau.gov.vn/cccd/-/view_content/content/817192/10-cau-hoi-thuong-gap-ve-cap-đoi-the-can-cuoc-cong-dan"
+    },
+    {
+      "id": 72,
+      "key": "Làm thẻ căn cước công dân có bị thu hôi chứng minh nhân dân không",
+      "key": "LAM TCC CO BI THU HOI CMND",
+      "value": "Khi chuyển từ chứng minh nhân dân 9 số sang thẻ căn cước thì chứng minh nhân dân của bạn sẽ được trả lại nếu như còn rõ nét. Nếu chứng minh của bạn bị hư hỏng, bong bóc… thì cơ quan chức năng sẽ thu hồi và tiêu hủy, bạn sẽ nhận được giấy xác nhận số chứng minh nhân dân cho công dân. Mọi giao dịch của bạn được giao dịch bằng số chứng minh 9 số của bạn vẫn có giá trị pháp lý khi bạn bị thu hồi chứng minh nhân dân khi làm thủ tục làm thẻ căn cước.",
+      "link": "http://luatgiaiphong.com/hoi-dap-phap-luat-ve-ho-tich-ho-khau/lam-the-can-cuoc-co-bi-thu-hoi-cmnd"
+    },
+    {
+      "id": 73,
+      "key": "Làm thẻ cccd có phải thay đổi mã số thuế không",
+      "key": "LAM TCC CO CAN DOI MA SO THUE",
+      "value": "Theo quy định trên thì nếu bạn có thay đổi một trong những thông tin trong hồ sơ đăng ký thuế đã nộp thì phải báo cho cơ quan quản lý thuế trực tiếp trong thời hạn 10 ngày làm việc kể từ phát sinh thông tin thay đổi. Do đó, sau 10 ngày làm việc kể từ ngày bạn có thông tin thay đổi về thẻ căn cước công dân mới thì bạn cần đế cơ quan quản lý thuế trực tiếp của bạn để làm thủ tục thay đổi thông tin đăng ký thuế. Hồ sơ đối với trường hợp cá nhân tự thay đổi thông tin gồm:\n \n- Mẫu 08- MST (Thông tư 95/2016/TT-BTC)\n \n- Bản sao thẻ căn cước mới\n \n- Bản photo Chứng minh thư cũ (nếu có)\n \n- Nơi nộp: Cơ quan thuế cấp mã số thuế lần đầu cho cá nhân",
+      "link": "https://luatminhgia.com.vn/hoi-dap-dan-su/lam-the-can-cuoc-cong-dan-moi-co-phai-thay-doi-ma-so-thue-khong-.aspx"
+    },
+    {
+      "id": 76,
+      "key": "Khi cấp lại cmt sẽ được cấp số mới hay giữ nguyên số cũ",
+      "key": "SO KHI CAP LAI CMND LA SO MOI HAY CU",
+      "value": "Số và thời hạn sử dụng của CMND.\nCMND có giá trị sử dụng 15 năm. Mỗi công dân Việt Nam chỉ được cấp một CMND và có một số CMND riêng. Nếu có sự thay đổi hoặc bị mất CMND thì được làm thủ tục đổi, cấp lại một giấy CMND khác nhưng số ghi trên CMND vẫn giữ đúng theo số ghi trên CMND đã cấp.",
+      "link": "https://luatduonggia.vn/khi-lam-thu-tuc-cap-lai-chung-minh-thu-se-duoc-cap-so-cu-hay-so-moi/"
+    },
+    {
+      "id": 82,
+      "key": "Làm lại cccd có phải chờ theo đợt không ?",
+      "key": "THOI GIAN LAM TCC",
+      "value": "Theo luật Căn cước công dân - Chương 3, Điều 25 qui định về thời hạn đổi. \nThời hạn cấp, đổi, cấp lại thẻ Căn cước công dân \nKể từ ngày nhận đủ hồ sơ theo quy định tại Luật này, cơ quan quản lý căn cước công dân phải cấp, đổi, cấp lại thẻ Căn cước công dân cho công dân trong thời hạn sau đây: \n1. Tại thành phố, thị xã không quá 07 ngày làm việc đối với trường hợp cấp mới và đổi; không quá 15 ngày làm việc đối với trường hợp cấp lại; \n2. Tại các huyện miền núi vùng cao, biên giới, hải đảo không quá 20 ngày làm việc đối với tất cả các trường hợp; \n3. Tại các khu vực còn lại không quá 15 ngày làm việc đối với tất cả các trường hợp; \n4. Theo lộ trình cải cách thủ tục hành chính, Bộ trưởng Bộ Công an quy định rút ngắn thời hạn cấp, đổi, cấp lại thẻ Căn cước công dân. ",
+      "link": "https://thanhnien.vn/thoi-su/luu-y-thu-tuc-cap-moi-the-can-cuoc-cong-dan-de-tranh-phien-toai-829597.html"
+    },
+    {
+      "id": 85,
+      "key": "chụp ảnh làm thẻ cccd có được đeo kính áp tròng không",
+      "key": "CHUP ANH TCC",
+      "value": "Ảnh chân dung của công dân là ảnh chụp chính diện, đầu để trần, rõ mặt, rõ hai tai, không đeo kính; trang phục, tác phong nghiêm túc, lịch sự, không được sử dụng trang phục chuyên ngành khi chụp ảnh thẻ Căn cước công dân",
+      "link": "https://hoidap.thuvienphapluat.vn/hoi-dap/41791-hd-co-duoc-phep-trang-diem-khi-chup-anh-the-can-cuoc-cong-dan-khong.html"
+    },
+    {
+      "id": 86,
+      "key": "em ở Hà Nội thì có thể làm cccd ở",
+      "key": "NOI LAM TCC",
+      "value": "Theo Điều 26 Luật căn cước công dân 2014, nơi làm thủ tục cấp, đổi, cấp lại thẻ Căn cước công dân bao gồm:\n\n- Tại cơ quan quản lý căn cước công dân của Bộ Công an;\n\n- Tại cơ quan quản lý căn cước công dân của Công an tỉnh, thành phố trực thuộc trung ương;\n\n- Tại cơ quan quản lý căn cước công dân của Công an huyện, quận, thị xã, thành phố thuộc tỉnh và đơn vị hành chính tương đương;\n\n- Cơ quan quản lý căn cước công dân có thẩm quyền tổ chức làm thủ tục cấp thẻ Căn cước công dân tại xã, phường, thị trấn, cơ quan, đơn vị hoặc tại chỗ ở của công dân trong trường hợp cần thiết.\n\nNhư vậy, nếu bạn muốn làm thẻ căn cước ở TPHCM thì bạn có thể lựa chọn một trong các cơ quan quản lý Căn cước công dân (CCCD) gần nhất theo quy định trên để thực hiện mà không nhất thiết phải về nơi đăng ký thường trú.",
+      "link": "https://radio.voh.com.vn/tu-van-phap-luat/ho-khau-o-tinh-lam-the-can-cuoc-tai-tphcm-duoc-khong-254092.html"
+    },
+    {
+      "id": 88,
+      "key": "Làm thẻ cccd có những quyền lợi gì ạ",
+      "key": "QUYEN LOI LAM TCC",
+      "value": "Về mặt thủ tục, khi cấp căn cước công dân thì công dân không phải xin xác nhận qua công an phường, xã nữa. Việc này cũng bớt được một khâu cho người dân, cũng là một bước tiến trong công tác cải cách hành chính.\n\nBên cạnh đó, Luật căn cước công dân quy định, khi công dân xuất trình căn cước công dân thì cơ quan chức năng không được đòi hỏi giấy tờ khác như giấy khai sinh, sổ hộ khẩu vì ngày, tháng, năm sinh, nơi thường trú của công dân đều được thể hiện đầy đủ trên thẻ căn cước công dân. Qua việc cấp thẻ căn cước công dân, Nhà nước cũng sẽ xây dựng được kho cơ sở dữ liệu quốc gia về dân cư. Theo chiến lược của Bộ Công an, thẻ căn cước công dân sẽ dần thay thế sổ hộ khẩu.\n\nThẻ căn cước công dân còn được sử dụng thay cho hộ chiếu trong trường hợp Việt Nam và nước ngoài ký kết điều ước hoặc thỏa thuận quốc tế cho phép công dân nước ký kết được sử dụng thẻ căn cước công dân thay cho việc sử dụng hộ chiếu trên lãnh thổ của nhau. Tuy nhiên, chúng ta chưa ký kết thỏa thuận này với nước nào.",
+      "link": "https://www.baogiaothong.vn/tu-112016-duoc-loi-gi-khi-co-the-can-cuoc-cong-dan-d132537.html"
+    },
+    {
+      "id": 92,
+      "key": " Làm lại chứng minh nhân dân khi mất giấy khai sinh và sổ hộ khẩu như thế nào\n",
+      "key": "LAM LAI CMND",
+      "value": "Theo quy định tại điểm c khoản 2 mục II Thông tư số 04/1999/TT-BCA/C13 ngày 29/4/1999 hướng dẫn một số quy định của Nghị định số 05/1999/NĐ-CP ngày 03/2/1999 của Chính phủ về chứng minh nhân dân có quy định về thủ tục cấp lại chứng minh nhân dân, cụ thể như sau:\n\n– Đơn trình bày rõ lý do đổi CMND hoặc cấp lại, có xác nhận của Công an phường, xã, thị trấn nơi đăng ký hộ khẩu thường trú, ảnh dán vào đơn và đóng dấu giáp lai;\n\n– Xuất trình hộ khẩu thường trú (Sổ hộ khẩu gia đình hoặc giấy chứng nhận nhân khẩu tập thể). Ở những địa phương chưa cấp hai loại sổ hộ khẩu trên Công an nơi làm thủ tục cấp CMND căn cứ vào sổ đăng ký hộ khẩu, chứng nhận đăng ký hộ khẩu thường trú của Công an xã, phường, thị trấn;\n\n– Đối với những trường hợp thay đổi họ tên, chữ đệm, ngày, tháng, năm sinh, đổi lại CMND phải xuất trình Quyết định của cơ quan có thẩm quyền cho phép thay đổi các nội dung trên đây;\n\n– Chụp ảnh (như trường hợp cấp mới);\n\n– Kê khai tờ khai cấp chứng minh nhân dân theo mẫu;\n\n– Vân tay hai ngón trỏ có thể in vào tờ khai theo mẫu hoặc cơ quan Công an thu vân tay hai ngón qua máy lấy vân tay tự động để in vào tờ khai và CMND;\n\n– Nộp lệ phí;\n\n– Các trường hợp đổi CMND phải nộp lại giấy CMND theo Quyết định số 143/CP ngày 9-8-1976 của Hội đồng Chính phủ (nếu có), CMND đã hết hạn sử dụng, hư hỏng hoặc có thay đổi nội dung cho cơ quan công an ngay khi làm thủ tục đổi để lưu chung với hồ sơ.",
+      "link": "https://luatduonggia.vn/lam-lai-chung-minh-nhan-dan-khi-mat-giay-khai-sinh-va-so-ho-khau/"
+    },
+    {
+      "id": 93,
+      "key": "Nếu em thay đổi ngày,tháng,năm sinh có phải làm lại thẻ cccd không ạ",
+      "key": "LAM LAI CMND KHI THAY DOI THONG TIN",
+      "value": "Điều 6. Giá trị pháp lý của Giấy khai sinh\n1. Giấy khai sinh là giấy tờ hộ tịch gốc của cá nhân.\n2. Mọi hồ sơ, giấy tờ của cá nhân có nội dung về họ, chữ đệm, tên; ngày, tháng, năm sinh; giới tính; dân tộc; quốc tịch; quê quán; quan hệ cha, mẹ, con phải phù hợp với Giấy khai sinh của người đó.\n3. Trường hợp nội dung trong hồ sơ, giấy tờ cá nhân khác với nội dung trong Giấy khai sinh của người đó thì Thủ trưởng cơ quan, tổ chức quản lý hồ sơ hoặc cấp giấy tờ có trách nhiệm điều chỉnh hồ sơ, giấy tờ theo đúng nội dung trong Giấy khai sinh.\"",
+      "link": "https://luatminhkhue.vn/sai-ngay-sinh-trong-the-can-cuoc-thi-co-sua-lai-duoc-khong---thu-tuc-the-nao--.aspx"
+    },
+    {
+      "id": 104,
+      "key": "Thẻ căn cước công dân có thể thực hiện những giao dich gì",
+      "key": "CAC GIAO DICH THUC HIEN DUOC BOI TCC",
+      "value": "1. Thẻ Căn cước công dân là giấy tờ tùy thân của công dân Việt Nam có giá trị chứng minh về căn cước công dân của người được cấp thẻ để thực hiện các giao dịch trên lãnh thổ Việt Nam.\n\n2. Thẻ Căn cước công dân được sử dụng thay cho việc sử dụng hộ chiếu trong trường hợp Việt Nam và nước ngoài ký kết điều ước hoặc thỏa thuận quốc tế cho phép công dân nước ký kết được sử dụng thẻ Căn cước công dân thay cho việc sử dụng hộ chiếu trên lãnh thổ của nhau.\n\n3. Cơ quan, tổ chức, cá nhân có thẩm quyền được yêu cầu công dân xuất trình thẻ Căn cước công dân để kiểm tra về căn cước và các thông tin quy định tại Điều 18 của Luật này; được sử dụng số định danh cá nhân trên thẻ Căn cước công dân để kiểm tra thông tin của người được cấp thẻ trong Cơ sở dữ liệu quốc gia về dân cư và cơ sở dữ liệu chuyên ngành theo quy định của pháp luật.",
+      "link": "https://luatduonggia.vn/the-can-cuoc-co-thay-the-ho-chieu-khong/"
+    }
+  ]
+}

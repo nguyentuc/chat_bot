@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+meta name="language" content="vi"/>
+
+<!-- chi phi lam cmnd -->
+<category>
+   <pattern>MAT THE</pattern>
+   <template>MAT CMND</template>
+</category>
+<category>
+   <pattern> * MAT *</pattern>
+   <template>
+      <srai>MAT THE</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * ROI *</pattern>
+   <template>
+      <srai>MAT THE</srai>
+   </template>
+</category>
+
+
+<category>
+   <pattern> * LAM * CHI PHI *</pattern>
+   <template>
+      <srai>MAT THE</srai>
+   </template>
+</category>
+
+</aiml>

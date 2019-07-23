@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+meta name="language" content="vi"/>
+
+<!-- hieu luc -->
+<category>
+   <pattern>HIEU LUC</pattern>
+   <template>HIEU LUC CUA THE CMND</template>
+</category>
+<category>
+   <pattern>HIEU LUC *</pattern>
+   <template>
+      <srai>HIEU LUC</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * HIEU LUC *</pattern>
+   <template>
+      <srai>HIEU LUC</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* GIA TRI *</pattern>
+   <template>
+      <srai>HIEU LUC</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>GIA TRI *</pattern>
+   <template>
+      <srai>HIEU LUC</srai>
+   </template>
+</category>
+
+<!-- chuc nang cua the cmnd -->
+<category>
+   <pattern>CHUC NANG</pattern>
+   <template>CHUC NANG THE CMND</template>
+</category>
+<category>
+   <pattern>CHUC NANG *</pattern>
+   <template>
+      <srai>CHUC NANG</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>VAI TRO *</pattern>
+   <template>
+      <srai>CHUC NANG</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * CHUC NANG *</pattern>
+   <template>
+      <srai>CHUC NANG</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * VAI TRO *</pattern>
+   <template>
+      <srai>CHUC NANG</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* CHUC NANG</pattern>
+   <template>
+      <srai>CHUC NANG</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* VAI TRO</pattern>
+   <template>
+      <srai>CHUC NANG</srai>
+   </template>
+</category>
+
+<!-- hieu luc cua the cmnd bi mo -->
+<category>
+   <pattern>THE BI MO</pattern>
+   <template>HIEU LUC THE CMND BI MO</template>
+</category>
+<category>
+   <pattern>* BI MO *</pattern>
+   <template>
+      <srai>THE BI MO</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* BI MO *</pattern>
+   <template>
+      <srai>THE BI MO</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* BI MO</pattern>
+   <template>
+      <srai>THE BI MO</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* KHONG THE SU DUNG *</pattern>
+   <template>
+      <srai>THE BI MO</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* KHONG THE DUNG *</pattern>
+   <template>
+      <srai>THE BI MO</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* KHONG THE DUNG</pattern>
+   <template>
+      <srai>THE BI MO</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>KHONG THE DUNG *</pattern>
+   <template>
+      <srai>THE BI MO</srai>
+   </template>
+</category>
+
+<!-- tcc co the thay the cho nhung giay to nao -->
+<category>
+   <pattern>TCC CO THE THAY THE</pattern>
+   <template>TCC CO THE THAY THE GIAY TO NAO</template>
+</category>
+<category>
+   <pattern>* CO THE THAY THE * GIAY TO *</pattern>
+   <template>
+      <srai>TCC CO THE THAY THE</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* CO THE THAY * GIAY TO *</pattern>
+   <template>
+      <srai>TCC CO THE THAY THE</srai>
+   </template>
+</category>
+</aiml>

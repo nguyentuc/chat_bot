@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+meta name="language" content="vi"/>
+
+<!-- chi phi lam cmnd -->
+<category>
+   <pattern>SAI TT</pattern>
+   <template>SAI THONG TIN TREN CMND</template>
+</category>
+<category>
+   <pattern> * SAI THONG TIN *</pattern>
+   <template>
+      <srai>SAI TT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * NHAM THONG TIN *</pattern>
+   <template>
+      <srai>SAI TT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>THONG TIN * SAI *</pattern>
+   <template>
+      <srai>SAI TT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> THONG TIN * NHAM *</pattern>
+   <template>
+      <srai>SAI TT</srai>
+   </template>
+</category>
+
+
+<category>
+   <pattern> * BI SAI *</pattern>
+   <template>
+      <srai>SAI TT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * BI NHAM *</pattern>
+   <template>
+      <srai>SAI TT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * BI SAI</pattern>
+   <template>
+      <srai>SAI TT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * BI NHAM</pattern>
+   <template>
+      <srai>SAI TT</srai>
+   </template>
+</category>
+
+
+<!-- khai thong tin tren the cc -->
+<category>
+   <pattern>KHAI THONG TIN</pattern>
+   <template>KHAI THONG TIN TREN TCC</template>
+</category>
+<category>
+   <pattern> * KHAI THONG TIN *</pattern>
+   <template>
+      <srai>KHAI THONG TIN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * KHAI THONG TIN *</pattern>
+   <template>
+      <srai>KHAI THONG TIN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * KHAI * THONG TIN *</pattern>
+   <template>
+      <srai>KHAI THONG TIN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * THONG TIN * KHAI *</pattern>
+   <template>
+      <srai>KHAI THONG TIN</srai>
+   </template>
+</category>
+
+</aiml>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+meta name="language" content="vi"/>
+
+<!-- loi chao -->
+<category>
+      <pattern>XIN CHAO</pattern>
+      <template>
+         <random>
+            <li>XINCHAO1</li>
+            <li>XINCHAO2</li>
+            <li>XINCHAO3</li>
+            <li>XINCHAO4</li>
+         </random>
+      </template>
+</category>
+<category>
+      <pattern>CHAO BAN</pattern>
+      <template>
+         <random>
+            <li>XINCHAO1</li>
+            <li>XINCHAO2</li>
+            <li>XINCHAO3</li>
+            <li>XINCHAO4</li>
+         </random>
+      </template>
+</category>
+<category>
+   <pattern>_ XIN CHAO</pattern>
+   <template>
+      <srai>XIN CHAO</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>_ CHAO BAN</pattern>
+   <template>
+      <srai>CHAO BAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>XIN CHAO *</pattern>
+   <template>
+      <srai>XIN CHAO</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>CHAO BAN *</pattern>
+   <template>
+      <srai>CHAO BAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>_ XIN CHAO *</pattern>
+   <template>
+      <srai>XIN CHAO</srai>
+   </template>
+</category>
+<category>
+   <pattern>_ CHAO BAN *</pattern>
+   <template>
+      <srai>CHAO BAN</srai>
+   </template>
+</category>
+
+
+<!-- pattern khong duoc chua cac dau dac biet cham va hoi va viet hoa-->
+<category>
+   <pattern>BAN CO BIET * LA AI KHONG</pattern>
+   <template>
+      <star/> LA AI ? TOI KHONG BIET. BAN CO BIET <star/> KHONG ?
+   </template>
+</category>
+
+
+<!-- srai: using for reuse template of pattern and template -->
+<!-- thu tuc cap cmt -->
+<category>
+   <pattern>THU TUC CAP CMND</pattern>
+   <template>DEN DAU LAM THU TUC CAP</template>
+</category>
+<category>
+   <pattern>_ DAU * THU TUC *</pattern>
+   <template>
+      <srai>THU TUC CAP CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>_ THU TUC * DAU *</pattern>
+   <template>
+      <srai>THU TUC CAP CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>THU TUC * DAU *</pattern>
+   <template>
+      <srai>THU TUC CAP CMND</srai>
+   </template>
+</category>
+
+
+<!-- srai: using for reuse template of pattern and template -->
+<!-- noi nhan cmnd-->
+<category>
+   <pattern>DIA DIEM NHAN</pattern>
+   <template>NHAN O DAU</template>
+</category>
+<category>
+   <pattern>_ NHAN * DAU *</pattern>
+   <template>
+      <srai>DIA DIEM NHAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>NHAN * DAU *</pattern>
+   <template>
+      <srai>DIA DIEM NHAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>NHAN * DAU</pattern>
+   <template>
+      <srai>DIA DIEM NHAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>_ NHAN * DAU</pattern>
+   <template>
+      <srai>DIA DIEM NHAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>_ DAU * NHAN *</pattern>
+   <template>
+      <srai>DIA DIEM NHAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> _ DAU * NHAN</pattern>
+   <template>
+      <srai>DIA DIEM NHAN</srai>
+   </template>
+</category>
+
+
+<!-- srai: using for reuse template of pattern and template -->
+<!-- le phi cap moi cmt-->
+<category>
+   <pattern>PHI CAP MOI</pattern>
+   <template>LE PHI CAP MOI</template>
+</category>
+<category>
+   <pattern>PHI * MOI *</pattern>
+   <template>
+      <srai>PHI CAP MOI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* BAO NHIEU * MOI *</pattern>
+   <template>
+      <srai>PHI CAP MOI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* MOI * BAO NHIEU *</pattern>
+   <template>
+      <srai>PHI CAP MOI</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* MOI * BAO NHIEU</pattern>
+   <template>
+      <srai>PHI CAP MOI</srai>
+   </template>
+</category>
+
+
+<!-- srai: using for reuse template of pattern and template -->
+<!-- cmt khac can cuoc cong dan o dau ?-->
+<category>
+   <pattern>KHAC NHAU</pattern>
+   <template>CHUNG MINH KHAC CAN CUOC</template>
+</category>
+<category>
+   <pattern> * CHUNG MINH THU KHAC THE CAN CUOC  *</pattern>
+   <template>
+      <srai>KHAC NHAU</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* THE CAN CUOC KHAC CHUNG MINH THU *</pattern>
+   <template>
+      <srai>KHAC NHAU</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* KHAC *</pattern>
+   <template>
+      <srai>KHAC NHAU</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>KHAC *</pattern>
+   <template>
+      <srai>KHAC NHAU</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* KHAC </pattern>
+   <template>
+      <srai>KHAC NHAU</srai>
+   </template>
+</category>
+
+<!-- srai: using for reuse template of pattern and template -->
+<!-- dich vu chuyen phat cmnd -->
+<category>
+   <pattern>CHUYEN PHAT</pattern>
+   <template>DICH VU CHUYEN PHAT</template>
+</category>
+<category>
+   <pattern> * CHUYEN PHAT *</pattern>
+   <template>
+      <srai>CHUYEN PHAT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>CHUYEN PHAT *</pattern>
+   <template>
+      <srai>CHUYEN PHAT</srai>
+   </template>
+</category>
+
+
+<!-- srai: using for reuse template of pattern and template -->
+<!-- cmnd co bao nhieu so -->
+<category>
+   <pattern>CMT CO BAO NHIEU SO</pattern>
+   <template>GIAY CHUNG MINH CO BAO NHIEU SO</template>
+</category>
+<category>
+   <pattern> * BAO NHIEU SO *</pattern>
+   <template>
+      <srai>CMT CO BAO NHIEU SO</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>BAO NHIEU SO *</pattern>
+   <template>
+      <srai>CMT CO BAO NHIEU SO</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* BAO NHIEU SO</pattern>
+   <template>
+      <srai>CMT CO BAO NHIEU SO</srai>
+   </template>
+</category>
+
+
+<!-- srai: using for reuse template of pattern and template -->
+<!-- thoi han cua cmnd -->
+<category>
+   <pattern>THOI HAN CMND</pattern>
+   <template>THOI HAN CMND</template>
+</category>
+<category>
+   <pattern> * HAN *</pattern>
+   <template>
+      <srai>THOI HAN CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * HSD *</pattern>
+   <template>
+      <srai>THOI HAN CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>HAN *</pattern>
+   <template>
+      <srai>THOI HAN CMND</srai>
+   </template>
+</category>
+
+
+<!-- srai: using for reuse template of pattern and template -->
+<!-- thu tuc cap lai cmnd -->
+<category>
+   <pattern>THU TUC CAP LAI CMND</pattern>
+   <template>THU TUC CAP LAI</template>
+</category>
+<category>
+   <pattern> * THU TUC CAP LAI *</pattern>
+   <template>
+      <srai>THU TUC CAP LAI CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>THU TUC CAP LAI *</pattern>
+   <template>
+      <srai>THU TUC CAP LAI CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* CAP LAI * THU TUC *</pattern>
+   <template>
+      <srai>THU TUC CAP LAI CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>CAP LAI * THU TUC *</pattern>
+   <template>
+      <srai>THU TUC CAP LAI CMND</srai>
+   </template>
+</category>
+
+
+
+<!-- star: get value of * -->
+<category>
+      <pattern>MINH TEN LA *</pattern>
+      <template>
+         <set name="name"><star/></set> la mot cai ten rat hay.
+      </template>
+</category>
+
+<category>
+      <pattern>TEN</pattern>
+      <template>
+         <random>
+            <li> Ten cua ban la <get name="name"/> </li>
+            <li> Nếu tôi nhớ không nhầm là <get name="name"/> </li>
+            <li> <get name="name"/> dung khong, toi khong quen ten ban dau.</li>
+            <li> <get name="name"/> dung khong, mot cai ten rat hay.</li>
+         </random>
+      </template>
+</category>
+
+<category>
+  <pattern>TEN * TOI LA GI</pattern>
+  <template>
+     <srai>TEN</srai>
+  </template>
+</category>
+
+
+<!-- that: using for conversation in one conversation -->
+<category>
+      <pattern>BAN CO THICH XEM PHIM KHONG</pattern>
+      <template>TOI CO,BAN CO THICH XEM PHIM GI KHONG</template>
+</category>
+
+<category>
+      <pattern>CO</pattern>
+      <that>DO YOU LIKE COMEDY MOVIES</that>
+      <template>Nice, I like comedy movies too.</template>
+</category>
+
+<category>
+      <pattern>NO</pattern>
+      <that>DO YOU LIKE COMEDY MOVIES</that>
+      <template>Ok, but i like comedy movie.</template>
+</category>
+
+
+<!-- topic: set pattern and templates for each topic. -->
+<category>
+      <pattern>LET DISCUSS MOVIES</pattern>
+      <template>Yes <set name = "topic">movies</set></template>
+</category>
+
+<topic name = "movies">
+      <category>
+         <pattern> * </pattern>
+         <template>Watching good movie refreshes our minds.</template>
+      </category>
+
+      <category>
+         <pattern>I LIKE WATCHING COMEDY</pattern>
+         <template>I like comedy movies too.</template>
+      </category>
+</topic>
+
+<!-- think: set name and use after that -->
+<category>
+      <pattern>NAME *</pattern>
+      <template>
+         Hello!
+         <think>
+            <set name = "username"> <star/> </set>
+         </think>
+      </template>
+</category>
+
+<category>
+      <pattern>TAM BIET</pattern>
+      <template>
+         Hi <get name = "username"/> Xin chao va hen gap lai ban lan sau!
+      </template>
+</category>
+
+<category>
+      <pattern>TOI LA AI</pattern>
+      <template>
+         DAY LA DAU
+      </template>
+</category>
+</aiml>

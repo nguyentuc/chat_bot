@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+meta name="language" content="vi"/>
+
+<!-- chi phi chuyen phat nhanh -->
+<category>
+   <pattern>CHUYEN PHAT NHANH</pattern>
+   <template>PHI CHUYEN PHAT NHANH</template>
+</category>
+<category>
+   <pattern> * PHI * CHUYEN PHAT *</pattern>
+   <template>
+      <srai>CHUYEN PHAT NHANH</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * TIEN * CHUYEN PHAT *</pattern>
+   <template>
+      <srai>CHUYEN PHAT NHANH</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>PHI * CHUYEN PHAT *</pattern>
+   <template>
+      <srai>CHUYEN PHAT NHANH</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> TIEN * CHUYEN PHAT *</pattern>
+   <template>
+      <srai>CHUYEN PHAT NHANH</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>PHI CHUYEN PHAT *</pattern>
+   <template>
+      <srai>CHUYEN PHAT NHANH</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> TIEN CHUYEN PHAT *</pattern>
+   <template>
+      <srai>CHUYEN PHAT NHANH</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>CHUYEN PHAT * PHI *</pattern>
+   <template>
+      <srai>CHUYEN PHAT NHANH</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>CHUYEN PHAT * TIEN * </pattern>
+   <template>
+      <srai>CHUYEN PHAT NHANH</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>CHUYEN PHAT * PHI</pattern>
+   <template>
+      <srai>CHUYEN PHAT NHANH</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>CHUYEN PHAT * TIEN</pattern>
+   <template>
+      <srai>CHUYEN PHAT NHANH</srai>
+   </template>
+</category>
+
+</aiml>

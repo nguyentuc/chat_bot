@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+meta name="language" content="vi"/>
+
+<!-- srai: using for reuse template of pattern and template -->
+<!-- lam chung minh thu nd -->
+<category>
+   <pattern>LAM CMND</pattern>
+   <template>CAN CUNG CAP GIAY TO SAU</template>
+</category>
+<category>
+   <pattern>_ LAM * CAN *</pattern>
+   <template>
+      <srai>LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>_ CAN * LAM *</pattern>
+   <template>
+      <srai>LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>CAN * LAM *</pattern>
+   <template>
+      <srai>LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>THU TUC * LAM *</pattern>
+   <template>
+      <srai>LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* THU TUC * LAM *</pattern>
+   <template>
+      <srai>LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>LAM * THU TUC *</pattern>
+   <template>
+      <srai>LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>THU TUC LAM *</pattern>
+   <template>
+      <srai>LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * THU TUC LAM *</pattern>
+   <template>
+      <srai>LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>LAM *</pattern>
+   <template>
+      <srai>LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>LAM * GIAY TO *</pattern>
+   <template>
+      <srai>LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* LAM * GIAY TO *</pattern>
+   <template>
+      <srai>LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* CAP * GIAY TO *</pattern>
+   <template>
+      <srai>LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* GIAY TO * LAM *</pattern>
+   <template>
+      <srai>LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>GIAY TO * LAM *</pattern>
+   <template>
+      <srai>LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>GIAY TO LAM *</pattern>
+   <template>
+      <srai>LAM CMND</srai>
+   </template>
+</category>
+
+<!-- lam chung minh thu nd o dau -->
+<category>
+   <pattern>NOI LAM CMND</pattern>
+   <template>LAM TAI CONG AN PHUONG</template>
+</category>
+<category>
+   <pattern>* LAM * DAU *</pattern>
+   <template>
+      <srai>NOI LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* LAM * DAU</pattern>
+   <template>
+      <srai>NOI LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* DAU * LAM *</pattern>
+   <template>
+      <srai>NOI LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>LAM * DAU *</pattern>
+   <template>
+      <srai>NOI LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>LAM * DAU</pattern>
+   <template>
+      <srai>NOI LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * CO LAM DUOC *</pattern>
+   <template>
+      <srai>NOI LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * CO THE LAM *</pattern>
+   <template>
+      <srai>NOI LAM CMND</srai>
+   </template>
+</category>
+
+<!-- dieu kien cap cmt -->
+<category>
+   <pattern>DIEU KIEN CAP CMT</pattern>
+   <template>DIEU KIEN CAP CHUNG MINH THU</template>
+</category>
+<category>
+   <pattern>DIEU KIEN CAP *</pattern>
+   <template>
+      <srai>DIEU KIEN CAP CMT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>DIEU KIEN LAM *</pattern>
+   <template>
+      <srai>DIEU KIEN CAP CMT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>DIEU KIEN * CAP *</pattern>
+   <template>
+      <srai>DIEU KIEN CAP CMT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>DIEU KIEN * LAM *</pattern>
+   <template>
+      <srai>DIEU KIEN CAP CMT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* DIEU KIEN * CAP *</pattern>
+   <template>
+      <srai>DIEU KIEN CAP CMT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* DIEU KIEN * LAM *</pattern>
+   <template>
+      <srai>DIEU KIEN CAP CMT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* CAP * DIEU KIEN *</pattern>
+   <template>
+      <srai>DIEU KIEN CAP CMT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* LAM * DIEU KIEN *</pattern>
+   <template>
+      <srai>DIEU KIEN CAP CMT</srai>
+   </template>
+</category>
+
+<!-- DO TUOI CAP CMND-->
+<category>
+   <pattern>* TUOI * CAP *</pattern>
+   <template>
+      <srai>DIEU KIEN CAP CMT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* TUOI * LAM *</pattern>
+   <template>
+      <srai>DIEU KIEN CAP CMT</srai>
+   </template>
+</category>
+
+
+<!-- dot lam the cmnd-->
+<category>
+   <pattern>DOT LAM CMND</pattern>
+   <template>DOT LAM THE CMND</template>
+</category>
+<category>
+   <pattern>* DOT * CAP *</pattern>
+   <template>
+      <srai>DOT LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* DOT CAP *</pattern>
+   <template>
+      <srai>DOT LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>DOT CAP *</pattern>
+   <template>
+      <srai>DOT LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* DOT LAM *</pattern>
+   <template>
+      <srai>DOT LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* DOT * LAM *</pattern>
+   <template>
+      <srai>DOT LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>DOT LAM *</pattern>
+   <template>
+      <srai>DOT LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>LAM * DOT *</pattern>
+   <template>
+      <srai>DOT LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* LAM * DOT *</pattern>
+   <template>
+      <srai>DOT LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* CAP * NGAY * </pattern>
+   <template>
+      <srai>DOT LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* LAM * NGAY *</pattern>
+   <template>
+      <srai>DOT LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* NGAY * LAM *</pattern>
+   <template>
+      <srai>DOT LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* NGAY LAM *</pattern>
+   <template>
+      <srai>DOT LAM CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> NGAY LAM *</pattern>
+   <template>
+      <srai>DOT LAM CMND</srai>
+   </template>
+</category>
+
+
+<!-- chuyen ho khau co can lam lai cmnd khong -->
+<category>
+   <pattern>CHUYEN HO KHAU</pattern>
+   <template>LAM TCC KHI CHUYEN HO KHAU</template>
+</category>
+<category>
+   <pattern>* CHUYEN HO KHAU * CAP *</pattern>
+   <template>
+      <srai>CHUYEN HO KHAU</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>CHUYEN HO KHAU * CAP *</pattern>
+   <template>
+      <srai>CHUYEN HO KHAU</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* CHUYEN HO KHAU * LAM *</pattern>
+   <template>
+      <srai>CHUYEN HO KHAU</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* LAM * CHUYEN HO KHAU *</pattern>
+   <template>
+      <srai>CHUYEN HO KHAU</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>LAM * CHUYEN HO KHAU *</pattern>
+   <template>
+      <srai>CHUYEN HO KHAU</srai>
+   </template>
+</category>
+
+<!-- phai cap lai cmnd-->
+<category>
+   <pattern>PHAI CAP LAI CMND</pattern>
+   <template>CAP LAI CMND</template>
+</category>
+<category>
+   <pattern>* PHAI * LAI *</pattern>
+   <template>
+      <srai>PHAI CAP LAI CMND</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* PHAI * LAI</pattern>
+   <template>
+      <srai>PHAI CAP LAI CMND</srai>
+   </template>
+</category>
+
+<!-- lam nhanh the can cuoc-->
+<category>
+   <pattern>LAM NHANH TCC</pattern>
+   <template>LAM NHANH TCC</template>
+</category>
+<category>
+   <pattern>* LAM NHANH *</pattern>
+   <template>
+      <srai>LAM NHANH TCC</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>LAM NHANH *</pattern>
+   <template>
+      <srai>LAM NHANH TCC</srai>
+   </template>
+</category>
+
+<!-- tai sao phai lam the cccd-->
+<category>
+   <pattern>TAI SAO LAM TCC</pattern>
+   <template>TAI SAO LAM TCC</template>
+</category>
+<category>
+   <pattern>* SAO * LAM *</pattern>
+   <template>
+      <srai>TAI SAO LAM TCC</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> SAO * LAM *</pattern>
+   <template>
+      <srai>TAI SAO LAM TCC</srai>
+   </template>
+</category>
+
+<!-- trinh tu cap, doi cmnd-->
+<category>
+   <pattern>PHAI CAP LAI CMND</pattern>
+   <template>CAP LAI CMND</template>
+</category>
+<category>
+   <pattern>* PHAI * LAI *</pattern>
+   <template>
+      <srai>PHAI CAP LAI CMND</srai>
+   </template>
+</category>
+</aiml>

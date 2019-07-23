@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+meta name="language" content="vi"/>
+
+<!-- srai: using for reuse template of pattern and template -->
+<!-- chup anh cmnd -->
+<category>
+   <pattern>TRANG PHUC</pattern>
+   <template>MAC AO KHI CHUP ANH</template>
+</category>
+<category>
+   <pattern> MAC * CHUP ANH  *</pattern>
+   <template>
+      <srai>TRANG PHUC</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> MAC * CHUP ANH</pattern>
+   <template>
+      <srai>TRANG PHUC</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* CHUP ANH * MAC *</pattern>
+   <template>
+      <srai>TRANG PHUC</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* CHUP ANH * TRANG PHUC *</pattern>
+   <template>
+      <srai>TRANG PHUC</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* CHUP ANH *</pattern>
+   <template>
+      <srai>TRANG PHUC</srai>
+   </template>
+</category>
+
+
+<!-- srai: using for reuse template of pattern and template -->
+<!-- kich thuoc anh the can cuoc cong dan -->
+<category>
+   <pattern>QUY DINH ANH</pattern>
+   <template>QUY DINH ANH TCC</template>
+</category>
+<category>
+   <pattern> KICH THUOC * ANH *</pattern>
+   <template>
+      <srai>QUY DINH ANH</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>KICH THUOC ANH *</pattern>
+   <template>
+      <srai>QUY DINH ANH</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> ANH * KICH THUOC  *</pattern>
+   <template>
+      <srai>QUY DINH ANH</srai>
+   </template>
+</category>
+
+
+</aiml>
