@@ -70,4 +70,18 @@ meta name="language" content="vi"/>
       <srai>THOI GIAN</srai>
    </template>
 </category>
+
+<category>
+   <pattern> THOI GIAN *</pattern>
+   <template>
+      <srai>THOI GIAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* THOI GIAN LAM *</pattern>
+   <template>
+      <srai>THOI GIAN</srai>
+   </template>
+</category>
 </aiml>

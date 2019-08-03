@@ -29,36 +29,63 @@ meta name="language" content="vi"/>
 </category>
 
 <category>
-   <pattern> * DOI * HET HAN</pattern>
+   <pattern> * DOI *</pattern>
    <template>
       <srai>CCCD HET HAN</srai>
    </template>
 </category>
 
 <category>
-   <pattern>CAP LAI * HET HAN *</pattern>
+   <pattern>CAP LAI * </pattern>
    <template>
       <srai>CCCD HET HAN</srai>
    </template>
 </category>
 
 <category>
-   <pattern>* CAP LAI * HET HAN *</pattern>
-   <template>
-      <srai>CCCD HET HAN</srai>
-   </template>
-</category>
-
-
-<category>
-   <pattern> CAP LAI * HET HAN</pattern>
+   <pattern>LAM LAI *</pattern>
    <template>
       <srai>CCCD HET HAN</srai>
    </template>
 </category>
 
 <category>
-   <pattern> * CAP LAI * HET HAN</pattern>
+   <pattern>* CAP LAI *</pattern>
+   <template>
+      <srai>CCCD HET HAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* LAM LAI * </pattern>
+   <template>
+      <srai>CCCD HET HAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> CAP LAI * </pattern>
+   <template>
+      <srai>CCCD HET HAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> LAM LAI *</pattern>
+   <template>
+      <srai>CCCD HET HAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * CAP LAI *</pattern>
+   <template>
+      <srai>CCCD HET HAN</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * LAM LAI * </pattern>
    <template>
       <srai>CCCD HET HAN</srai>
    </template>
@@ -140,6 +167,18 @@ meta name="language" content="vi"/>
 
 <category>
    <pattern>* DOI KHI NAO *</pattern>
+   <template>
+      <srai>DOI KHI NAO</srai>
+   </template>
+</category>
+
+<!-- lam hong, mat co duoc cap lai khong-->
+<category>
+   <pattern>DOI KHI NAO</pattern>
+   <template>TCC DOI KHI NAO</template>
+</category>
+<category>
+   <pattern>KHI NAO * DOI *</pattern>
    <template>
       <srai>DOI KHI NAO</srai>
    </template>

@@ -15,5 +15,5 @@
     ```bash
     python main.py
     ```
-3. Open **http://127.0.0.1:5000** in your browser.
+3. Open **http://ip_server:5000** in your browser.
 

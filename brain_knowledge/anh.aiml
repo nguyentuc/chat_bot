@@ -43,6 +43,19 @@ meta name="language" content="vi"/>
    </template>
 </category>
 
+<category>
+   <pattern>CHUP ANH *</pattern>
+   <template>
+      <srai>TRANG PHUC</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>* CHUP ANH</pattern>
+   <template>
+      <srai>TRANG PHUC</srai>
+   </template>
+</category>
 
 <!-- srai: using for reuse template of pattern and template -->
 <!-- kich thuoc anh the can cuoc cong dan -->
@@ -70,6 +83,5 @@ meta name="language" content="vi"/>
       <srai>QUY DINH ANH</srai>
    </template>
 </category>
-
 
 </aiml>

@@ -5,7 +5,7 @@
             <!-- Load standard AIML set -->
             <learn>brain_knowledge/z_conversation.aiml</learn>
             <learn>brain_knowledge/age.aiml</learn>
-            <learn>brain_knowledge/cost.aiml</learn>
+            <learn>brain_knowledge/chi_phi.aiml</learn>
             <learn>brain_knowledge/lam_cmnd.aiml</learn>
             <learn>brain_knowledge/chuyen_the.aiml</learn>
             <learn>brain_knowledge/mat_cmnd.aiml</learn>

@@ -49,8 +49,6 @@ def ask():
                         link = r['link']
                         break
 
-                # print "Bot > ", answer
-                # print "Bot > Bạn có thể tham khảo thêm thông tin ở đây:", link
                 if link == "":
                     return jsonify({'status': 'OK', 'answer': answer, 'flag': 0})
                 return jsonify({'status': 'OK', 'answer': answer, 'link': link, 'flag': 1})

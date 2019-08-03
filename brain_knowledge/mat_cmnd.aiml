@@ -15,12 +15,25 @@ meta name="language" content="vi"/>
 </category>
 
 <category>
+   <pattern> MAT *</pattern>
+   <template>
+      <srai>MAT THE</srai>
+   </template>
+</category>
+
+<category>
    <pattern> * ROI *</pattern>
    <template>
       <srai>MAT THE</srai>
    </template>
 </category>
 
+<category>
+   <pattern> ROI *</pattern>
+   <template>
+      <srai>MAT THE</srai>
+   </template>
+</category>
 
 <category>
    <pattern> * LAM * CHI PHI *</pattern>
