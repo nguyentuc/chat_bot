@@ -63,6 +63,13 @@ meta name="language" content="vi"/>
    </template>
 </category>
 
+<category>
+   <pattern>LAM * TIEN *</pattern>
+   <template>
+      <srai>CHI PHI</srai>
+   </template>
+</category>
+
 <!-- doi the co mat phi hay khong -->
 <category>
    <pattern>DOI * TIEN</pattern>

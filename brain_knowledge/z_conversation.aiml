@@ -66,6 +66,13 @@ meta name="language" content="vi"/>
    </template>
 </category>
 
+<category>
+   <pattern>CHAO *</pattern>
+   <template>
+      <srai>CHAO BAN</srai>
+   </template>
+</category>
+
 
 <!-- pattern khong duoc chua cac dau dac biet cham va hoi va viet hoa-->
 <category>

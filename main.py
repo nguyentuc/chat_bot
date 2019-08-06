@@ -4,8 +4,13 @@ import os
 from unidecode import unidecode
 import aiml
 import json
+import bot_brain
+from logger import logger
 
 app = Flask(__name__)
+
+bot = bot_brain.brain_bot()
+bot.run()
 
 
 @app.route("/")
@@ -48,13 +53,23 @@ def ask():
                         answer = r['value']
                         link = r['link']
                         break
-
+                logger.info('question_aiml: %s, answer_aiml: %s' % (string_input, answer))
                 if link == "":
-                    return jsonify({'status': 'OK', 'answer': answer, 'flag': 0})
-                return jsonify({'status': 'OK', 'answer': answer, 'link': link, 'flag': 1})
+                    return jsonify({'status': 'OK',
+                                    'answer': answer,
+                                    'flag': 0})
+                return jsonify({'status': 'OK',
+                                'answer': answer,
+                                'link': link,
+                                'flag': 1})
+            elif bot.thinking(string_input):
+                logger.info('question_sys2tuongdong: %s, answer_sys2tuongdong: %s' % (string_input, bot.thinking(string_input)))
+                return jsonify({'status': 'OK',
+                                'answer': bot.thinking(string_input),
+                                'flag': 2})
             else:
                 return jsonify({'status': 'OK',
-                                'answer': "Tôi đang không hiểu ý bạn là gì, bạn có thể đặt câu hỏi cụ thể hơn được không ạ ?"})
+                                'answer': "Tôi đang không hiểu ý bạn là gì, bạn hãy đưa câu hỏi cụ thể hơn được không ?"})
 
 
 if __name__ == "__main__":

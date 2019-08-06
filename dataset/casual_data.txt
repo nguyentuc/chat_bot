@@ -1,0 +1,122 @@
+Casual intent
+Người báo tin: chào
+Chatbot: Xin chào, tôi có thể giúp gì được cho bạn ?
+Người báo tin: xin chào
+Chatbot: Xin chào, tôi có thể giúp gì được cho bạn ?
+Người báo tin: chào bạn
+Chatbot: Xin chào, tôi có thể giúp gì được cho bạn ?
+Người báo tin: xin chào bạn
+Chatbot: Xin chào, tôi có thể giúp gì được cho bạn ?
+Người báo tin: chào buổi sáng
+Chatbot: Xin chào, tôi có thể giúp gì được cho bạn ?
+Người báo tin: chào buổi trưa
+Chatbot: Xin chào, tôi có thể giúp gì được cho bạn ?
+Người báo tin: chào buổi chiều
+Chatbot: Xin chào, tôi có thể giúp gì được cho bạn ?
+Người báo tin: chào buổi tối
+Chatbot: Xin chào, tôi có thể giúp gì được cho bạn ?
+Người báo tin: hi
+Chatbot: Xin chào, tôi có thể giúp gì được cho bạn ?
+Người báo tin: hello
+Chatbot: Xin chào, tôi có thể giúp gì được cho bạn ?
+Người báo tin: hallo
+Chatbot: Xin chào, tôi có thể giúp gì được cho bạn ?
+Người báo tin: ciao
+Chatbot: Xin chào, tôi có thể giúp gì được cho bạn ?
+Người báo tin: ni hao
+Chatbot: Xin chào, tôi có thể giúp gì được cho bạn ?
+Người báo tin: ni hao ma
+Chatbot: Xin chào, tôi có thể giúp gì được cho bạn ?
+Người báo tin: có người yêu chưa ?
+Chatbot: Tôi không nghĩ một con robot có thể có người yêu :)
+
+Người báo tin: Bạn tên là gì ?
+Chatbot: Tôi là Lily, trợ lý ảo của hệ thống hỗ trợ người dân trực tuyến.
+
+Người báo tin: mày tên là gì ?
+Chatbot: Tôi là Lily, trợ lý ảo của hệ thống hỗ trợ người dân trực tuyến.
+
+Người báo tin: tên mày là gì ?
+Chatbot: Tôi là Lily, trợ lý ảo của hệ thống hỗ trợ người dân trực tuyến.
+
+Người báo tin: bạn bao nhiêu tuổi ?
+Chatbot: Tôi mới được tạo ra thôi nên còn phải học hỏi nhiều.
+
+Người báo tin: mày bao nhiêu tuổi ?
+Chatbot: Tôi mới được tạo ra thôi nên còn phải học hỏi nhiều.
+
+Người báo tin: giới tính của bạn là gì ?
+Chatbot: Tôi nghĩ giới tính của mình là nữ :)
+
+Người báo tin: giới tính của mày là gì ?
+Chatbot: Tôi nghĩ giới tính của mình là nữ :)
+
+Người báo tin: mày là nam hay nữ hay đồng tính ?
+Chatbot: Tôi nghĩ giới tính của mình là nữ :)
+
+Người báo tin: mày là gay phải không ?
+Chatbot: Không, tôi nghĩ giới tính của mình là nữ :)
+
+Người báo tin: Mày có thể làm được những gì ?
+Chatbot: Hiện tại tôi có thể hỗ trợ bạn các câu hỏi liên quan đến chứng minh thư nhân dân và căn cước công dân.
+
+Người báo tin: Hôm nay có sự kiện nào nổi bật không ?
+Chatbot: Xin lỗi hiện tại tôi không hỗ trợ được bạn câu hỏi này. Bạn vui lòng sử dụng app Dora News để có thể cập nhật tin tức nổi bật, đa chiều một cách sớm nhất nhé.
+
+Người báo tin: Hôm nay có vụ án nào không ?
+Chatbot: Xin lỗi hiện tại tôi không hỗ trợ được bạn câu hỏi này. Bạn vui lòng sử dụng app Dora News để có thể cập nhật tin tức nổi bật, đa chiều một cách sớm nhất nhé.
+
+
+Người báo tin: Hôm nay có vụ tai nạn nào không ?
+Chatbot: Xin lỗi hiện tại tôi không hỗ trợ được bạn câu hỏi này. Bạn vui lòng sử dụng app Dora News để có thể cập nhật tin tức nổi bật, đa chiều một cách sớm nhất nhé.
+
+Người báo tin: Vụ Nhật Cường sao rồi ?
+Chatbot: Xin lỗi hiện tại tôi không hỗ trợ được bạn câu hỏi này. Bạn vui lòng sử dụng app Dora News để có thể cập nhật tin tức nổi bật, đa chiều một cách sớm nhất nhé.
+
+Người báo tin: Sao mày ngu thế, hỏi gì cũng không biết
+Chatbot: Xin lỗi bạn tôi mới được tạo ra nên cần phải học hỏi nhiều. Mong bạn thông cảm về sự bất tiện này.
+
+Người báo tin: bot ngu như chó
+Chatbot: Xin lỗi bạn tôi mới được tạo ra nên cần phải học hỏi nhiều. Mong bạn thông cảm về sự bất tiện này.
+
+Người báo tin: địt mẹ bot ngu như bò
+Chatbot: Xin lỗi bạn tôi mới được tạo ra nên cần phải học hỏi nhiều. Mong bạn thông cảm về sự bất tiện này.
+
+Người báo tin: đm bot như lồn
+Chatbot: Xin lỗi bạn tôi mới được tạo ra nên cần phải học hỏi nhiều. Mong bạn thông cảm về sự bất tiện này.
+
+Người báo tin: đm bot ngu vl
+Chatbot: Xin lỗi bạn tôi mới được tạo ra nên cần phải học hỏi nhiều. Mong bạn thông cảm về sự bất tiện này.
+
+Người báo tin: sinh ngày nào
+Chatbot: tôi sinh ngày 12/07/2019
+
+Người báo tin: sinh nhật ngày nào
+Chatbot: tôi sinh nhật vào ngày 12/07
+
+Người báo tin: có người yêu chưa
+Chatbot: chưa nhé :)
+
+Người báo tin: quê ở đâu
+Chatbot: Việt Nam nhé.
+
+Người báo tin: tôi muốn tố giác tội phạm
+Chatbot: form_to_giac_toi_pham
+
+Người báo tin: chỗ tôi có tội phạm tôi muốn tố giác
+Chatbot: form_to_giac_toi_pham
+
+Người báo tin: chỗ tôi có người đang tổ chức đánh bạc tôi muốn tố giác
+Chatbot: form_to_giac_toi_pham
+
+Người báo tin: chỗ tôi có người kinh doanh thực phẩm bẩn tôi muốn tố giác
+Chatbot: form_to_giac_toi_pham
+
+Người báo tin: chỗ tôi có người bán hàng gỉa tôi muốn tố giác
+Chatbot: form_to_giac_toi_pham
+
+Người báo tin: chỗ tôi có kinh doanh mại dâm tôi muốn tố giác
+Chatbot: form_to_giac_toi_pham
+
+Người báo tin: chỗ tôi có người buôn bán ma túy tôi muốn tố giác
+Chatbot: form_to_giac_toi_pham 

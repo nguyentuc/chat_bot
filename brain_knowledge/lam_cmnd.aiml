@@ -153,19 +153,6 @@ meta name="language" content="vi"/>
    </template>
 </category>
 
-<category>
-   <pattern> * CO LAM DUOC *</pattern>
-   <template>
-      <srai>NOI LAM CMND</srai>
-   </template>
-</category>
-
-<category>
-   <pattern> * CO THE LAM *</pattern>
-   <template>
-      <srai>NOI LAM CMND</srai>
-   </template>
-</category>
 
 <!-- dieu kien cap cmt -->
 <category>
@@ -243,6 +230,26 @@ meta name="language" content="vi"/>
    </template>
 </category>
 
+<category>
+   <pattern> * CO DUOC LAM*</pattern>
+   <template>
+      <srai>DIEU KIEN CAP CMT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * CO * LAM DUOC *</pattern>
+   <template>
+      <srai>DIEU KIEN CAP CMT</srai>
+   </template>
+</category>
+
+<category>
+   <pattern> * CO LAM DUOC *</pattern>
+   <template>
+      <srai>DIEU KIEN CAP CMT</srai>
+   </template>
+</category>
 
 <!-- dot lam the cmnd-->
 <category>

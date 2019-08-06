@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Event Detection Service</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+
+    <!--
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    -->
+
+    <link rel="stylesheet" href="custom/custom.css">
+    <style>
+        .newsContent{
+            overflow:auto;
+        }
+        .long-event-detail{
+            <!--height: 7em;-->
+            height: auto;
+            overflow: auto;
+        }
+        #dora-icon{
+            width: 50px;
+            height: auto ;
+        }
+        #myTab{
+            padding-left: 1%;
+            padding-right: 1%;
+            <!--margin-left: 2%;-->
+            <!--width: 93%;-->
+            <!--height: 93%-->
+        }
+        #header{
+            margin-bottom: 20px;
+        }
+        <!--.sticky {-->
+            <!--position: fixed;-->
+            <!--top: 0;-->
+            <!--width: 100%;-->
+        <!--}-->
+        #bottom-part(
+            position: fixed;
+        )
+        body{
+            overflow: hidden;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #myTab {
+              font-size: 12px;
+            }
+            #myTab a{
+            padding: 0.5rem 0.2rem;
+            }
+        }
+    </style>
+
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+
+    <!--
+<script src="bootstrap/js/bootstrap.min.js"></script>
+-->
+    <script>
+        $(function() {
+            var offset = $(".newsContent").offset();
+            var topPadding = 15;
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > offset.top) {
+                    $(".newsContent").stop().animate({
+                        marginTop: $(window).scrollTop() - offset.top + topPadding
+                    });
+                } else {
+                    $(".newsContent").stop().animate({
+                        marginTop: 0
+                    });
+                };
+            });
+        });
+
+        $(function() {
+            var offset = $(".long-event-detail").offset();
+            var topPadding = 15;
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > offset.top) {
+                    $(".long-event-detail").stop().animate({
+                        marginTop: $(window).scrollTop() - offset.top + topPadding
+                    });
+                } else {
+                    $(".long-event-detail").stop().animate({
+                        marginTop: 0
+                    });
+                };
+            });
+        });
+
+        $(document).on('click','.nav-link',function(){
+            $('.newsContent').empty();
+            $('.long-event-detail').empty();
+        })
+
+        $(document).on('click','#event_title',function(){
+            var long_event_detail = $(this).attr("name");
+        
+             $(".long-event-detail").html('<h3>Dòng sự kiện:</h3>'+long_event_detail.split('\n').join('</br>'));
+        })
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132878216-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-132878216-1');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132878216-2"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'UA-132878216-2');
+</script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div id="header" style="height: 20%">
+            <div class="row">
+                <div class="col-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <!--<li><img id="dora-icon" src="DoraAppIcon.png" /></li>-->
+                    <li class="nav-item">
+                        <a class="nav-link active" id="the-thao-tab" data-toggle="tab" href="#the-thao" role="tab" aria-controls="home"
+                            aria-selected="true">The thao</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="giao-duc-tab" data-toggle="tab" href="#giao-duc" role="tab" aria-controls="giaoduc" aria-selected="false">Giao duc</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="giai-tri-tab" data-toggle="tab" href="#giai-tri" role="tab" aria-controls="giaitri" aria-selected="false">Giai tri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="the-gioi-tab" data-toggle="tab" href="#the-gioi" role="tab" aria-controls="thegioi" aria-selected="false">The gioi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="xa-hoi-tab" data-toggle="tab" href="#xa-hoi" role="tab" aria-controls="xahoi" aria-selected="false">Xa hoi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="van-hoa-tab" data-toggle="tab" href="#van-hoa" role="tab" aria-controls="vanhoa" aria-selected="false">Van hoa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="doi-song-tab" data-toggle="tab" href="#doi-song" role="tab" aria-controls="doisong" aria-selected="false">Doi song</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="phap-luat-tab" data-toggle="tab" href="#phap-luat" role="tab" aria-controls="phapluat" aria-selected="false">Phap luat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="kinh-te-tab" data-toggle="tab" href="#kinh-te" role="tab" aria-controls="kinhte" aria-selected="false">Kinh te</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nha-dat-tab" data-toggle="tab" href="#nha-dat" role="tab" aria-controls="nhadat" aria-selected="false">Nha dat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="khoa-hoc-tab" data-toggle="tab" href="#khoa-hoc" role="tab" aria-controls="khoahoc" aria-selected="false">Khoa hoc</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="cong-nghe-tab" data-toggle="tab" href="#cong-nghe" role="tab" aria-controls="congnghe" aria-selected="false">Cong nghe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="xe-co-tab" data-toggle="tab" href="#xe-co" role="tab" aria-controls="xeco" aria-selected="false">Xe co</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    <div class="row" id="bottom-part">
+        <div class="tab-content col-6" id="myTabContent" style="overflow:auto">
+            <div class="tab-pane fade show active" id="the-thao" role="tabpanel" aria-labelledby="the-thao-tab">
+                <div id="eventContainer-the-thao">
+                    <div id="eventList-the-thao">
+                        <div>
+                            <div id="accordion-the-thao">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="giao-duc" role="tabpanel" aria-labelledby="giao-duc-tab">
+                <div id="eventContainer-giao-duc">
+                    <div id="eventList-giao-duc">
+                        <div>
+                            <div id="accordion-giao-duc">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="giai-tri" role="tabpanel" aria-labelledby="giai-tri-tab">
+                <div id="eventContainer-giai-tri">
+                    <div id="eventList-giai-tri">
+                        <div>
+                            <div id="accordion-giai-tri">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="the-gioi" role="tabpanel" aria-labelledby="the-gioi-tab">
+                <div id="eventContainer-the-gioi">
+                    <div id="eventList-the-gioi">
+                        <div>
+                            <div id="accordion-the-gioi">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="xa-hoi" role="tabpanel" aria-labelledby="xa-hoi-tab">
+                <div id="eventContainer-xa-hoi">
+                    <div id="eventList-xa-hoi">
+                        <div>
+                            <div id="accordion-xa-hoi">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="van-hoa" role="tabpanel" aria-labelledby="van-hoa-tab">
+                <div id="eventContainer-van-hoa">
+                    <div id="eventList-van-hoa">
+                        <div>
+                            <div id="accordion-van-hoa">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="doi-song" role="tabpanel" aria-labelledby="doi-song-tab">
+                <div id="eventContainer-doi-song">
+                    <div id="eventList-doi-song">
+                        <div>
+                            <div id="accordion-doi-song">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="phap-luat" role="tabpanel" aria-labelledby="phap-luat-tab">
+                <div id="eventContainer-phap-luat">
+                    <div id="eventList-phap-luat">
+                        <div>
+                            <div id="accordion-phap-luat">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="kinh-te" role="tabpanel" aria-labelledby="kinh-te-tab">
+                <div id="eventContainer-kinh-te">
+                    <div id="eventList-kinh-te">
+                        <div>
+                            <div id="accordion-kinh-te">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="nha-dat" role="tabpanel" aria-labelledby="nha-dat-tab">
+                <div id="eventContainer-nha-dat">
+                    <div id="eventList-nha-dat">
+                        <div>
+                            <div id="accordion-nha-dat">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="khoa-hoc" role="tabpanel" aria-labelledby="khoa-hoc-tab">
+                <div id="eventContainer-khoa-hoc">
+                    <div id="eventList-khoa-hoc">
+                        <div>
+                            <div id="accordion-khoa-hoc">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="cong-nghe" role="tabpanel" aria-labelledby="cong-nghe-tab">
+                <div id="eventContainer-cong-nghe">
+                    <div id="eventList-cong-nghe">
+                        <div>
+                            <div id="accordion-cong-nghe">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="xe-co" role="tabpanel" aria-labelledby="xe-co-tab">
+                <div id="eventContainer-xe-co">
+                    <div id="eventList-xe-co">
+                        <div>
+                            <div id="accordion-xe-co">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="right-content" class="col-6" style="overflow:auto">
+            <div class="long-event-detail" style="color: red; font-weight: bold">
+
+            </div>
+            <div class="newsContent">
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type='text/javascript'>
+
+        var TOPIC_IDS = ['the-thao', 'giao-duc', 'giai-tri', 'the-gioi', 'xa-hoi', 'van-hoa',
+        'doi-song', 'phap-luat', 'kinh-te', 'nha-dat', 'khoa-hoc', 'cong-nghe', 'xe-co'];
+
+        String.prototype.format = function () {
+            var content = this;
+            for (var i = 0; i < arguments.length; i++) {
+                var replacement = '{' + i + '}';
+                content = content.replace(replacement, arguments[i]);
+            }
+            return content;
+        };
+
+        update();
+
+        function toUpperTitle(title) {
+            firstLetter = title[0].toUpperCase();
+            title = firstLetter + title.substring(1);
+            return title;
+        }
+        function update() {
+            console.log("In update function ...")
+            clearAll();
+            var url = "/update"
+            var posting = $.post(url);
+            //console.log("update: ")
+            /* Alerts the results */
+            posting.done(function (data) {
+                //alert('success');
+                if (data["error"] != undefined) {
+                    $("#recProductsByCourse").val(data["msg"])
+                    return;
+                }
+                //
+                //console.log(typeof(data));
+                //data = JSON.parse(data);
+                //console.log(typeof(data));
+                //console.log(data+ " "+data.length);
+                //alert(data)
+
+                try {
+                    for (var tid = 0; tid < data.length; tid++) {
+                        var data_t = data[tid]
+                        var t_name = data_t['domain']
+                        var t_id = data_t['id']
+                        var t_content = data_t['content']
+                        for (var i = 0; i < t_content.length; i++) {
+                            //recs = recs + data[i]["id"] + " #N: "+data[i]["name"]+" #S: "+data[i]["score"].toFixed(1) + "\n"
+
+                            card = createCard(t_content[i], i,t_id)
+                            //console.log("t_content[i] = " + t_content[i])
+                            $("#accordion-" + t_id).append(card)
+                        }
+                    }
+                }
+                catch (e) {
+                    recs = data
+                }
+            });
+
+        }
+        function getContent(contentId) {
+            console.log("In getContent function ...")
+            var url = "/get"
+            var posting = $.post(url, { contentId: contentId });
+            //console.log("Get: " + title)
+            /* Alerts the results */
+            posting.done(function (data) {
+                //alert('success');
+                if (data["error"] != undefined) {
+                    $("#recProductsByCourse").val(data["msg"])
+                    return;
+                }
+
+                console.log(data)
+                $(".newsContent").html(data);
+            });
+
+        }
+
+        function clearAll() {
+
+            //console.log("Clear")
+            for (i = 0; i < TOPIC_IDS.length; ++i) {
+                $("#accordion-" + TOPIC_IDS[i]).empty();
+                $("#newsContent-" + TOPIC_IDS[i]).empty();
+            }
+        }
+        function createCard(jsonCardData, idx,tid) {
+
+            //console.log('Create card');
+            var long_event_detail= jsonCardData['flowOfEvent']
+            title = jsonCardData['title']
+            upperTitle = toUpperTitle(title);
+
+            subTitles = jsonCardData['subTitles']
+            //console.log('Title: '+title);
+
+            divTitle = ' <div class="card"> '
+                + '<div class="card-header bg-light" id="heading{0}">'
+                + '<h5 class="mb-0">'
+                + '<button style="white-space:normal" class="btn" id="event_title" data-toggle="collapse" data-target="#collapse{1}"' + 'aria-expanded="true" aria-controls="collapse{2}"'
+                + ' name="'+long_event_detail
+                +'">'
+                + upperTitle
+                + '</button>'
+                + '</h5>'
+                + '</div>'
+
+                + '<div id="collapse{3}" class="collapse" aria-labelledby="heading{4}" data-parent="#accordion-{5}">'
+                + '<div class="card-body">'
+                + '<ul class="list-group">'
+
+            divTitle = divTitle.format("-"+tid+"-"+idx, "-"+tid+"-"+idx, "-"+tid+"-"+idx, "-"+tid+"-"+idx, "-"+tid+"-"+idx,tid);
+
+
+            for (i = 0; i < subTitles.length; ++i) {
+                subItemTitle = subTitles[i]['title']
+                upperTitle = toUpperTitle(subItemTitle);
+                contentId = subTitles[i]['contentId']
+                //console.log("Sub title: "+subTitles[i]);
+                li = '<li class="list-group-item">'
+                    + '<a href="javascript:getContent(\'' + contentId + '\')";>' + upperTitle + '</a>'
+                    + '</li>'
+                divTitle = divTitle + li
+            }
+
+            divFoot = '</ul> </div> </div> </div>';
+
+            cardDiv = divTitle + divFoot;;
+            //console.log(cardDiv);
+            return cardDiv;
+
+        }
+        //setInterval(update,300000);
+
+    </script>
+    <script>
+        $(document).on('click','.list-group-item',function(){
+            <!--$('.newsContent').empty();-->
+            $('.long-event-detail').css({"display":"none"});
+            $('.newsContent').css({"display":"inline-block"});
+        })
+        $(document).on('click','.card-header',function(){
+            <!--$('.newsContent').empty();-->
+            $('.long-event-detail').css({"display":"inline-block"});
+            $('.newsContent').css({"display":"none"});
+        })
+    </script>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("header");
+var sticky = navbar.offsetTop;
+
+<!--function myFunction() {-->
+  <!--if (window.pageYOffset >= sticky) {-->
+    <!--navbar.classList.add("sticky")-->
+  <!--} else {-->
+    <!--navbar.classList.remove("sticky");-->
+  <!--}-->
+<!--}-->
+</script>
+<script>
+    <!--$("#bottom-part").height($( window ).height() - $("#header").height() - 40)-->
+    $("#myTabContent").height($( window ).height() - $("#header").height() - 40)
+    $("#right-content").height($( window ).height() - $("#header").height() - 40)
+</script>
+</body>
+
+</html>
