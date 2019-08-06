@@ -62,10 +62,12 @@ def ask():
                                 'answer': answer,
                                 'link': link,
                                 'flag': 1})
-            elif bot.thinking(string_input):
-                logger.info('question_sys2tuongdong: %s, answer_sys2tuongdong: %s' % (string_input, bot.thinking(string_input)))
+            elif bot.thinking(unicode(string_input, "utf-8")):
+                logger.info(
+                    'question_sys2tuongdong: %s, answer_sys2tuongdong: %s' % (
+                        string_input, bot.thinking(unicode(string_input, "utf-8"))))
                 return jsonify({'status': 'OK',
-                                'answer': bot.thinking(string_input),
+                                'answer': bot.thinking(unicode(string_input, "utf-8")),
                                 'flag': 2})
             else:
                 return jsonify({'status': 'OK',

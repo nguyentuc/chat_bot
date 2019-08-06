@@ -1,0 +1,122 @@
+2019-08-06 21:03:17 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-08-06 21:03:17 werkzeug INFO  * Restarting with stat
+2019-08-06 21:03:20 werkzeug WARNING  * Debugger is active!
+2019-08-06 21:03:20 werkzeug INFO  * Debugger PIN: 215-759-126
+2019-08-06 21:04:01 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:04:01] "GET / HTTP/1.1" 200 -
+2019-08-06 21:04:03 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:04:03] "GET /favicon.ico HTTP/1.1" 404 -
+2019-08-06 21:04:10 root INFO question_aiml: xin chao, answer_aiml: Xin chào người bạn của tôi.
+2019-08-06 21:04:10 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:04:10] "POST /ask HTTP/1.1" 200 -
+2019-08-06 21:04:33 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:04:33] "POST /ask HTTP/1.1" 500 -
+2019-08-06 21:04:44 root INFO question_aiml: chao ban, answer_aiml: Xin chào bạn, mình là bot. Rất vui khi được nói chuyện với bạn !!!
+2019-08-06 21:04:44 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:04:44] "POST /ask HTTP/1.1" 200 -
+2019-08-06 21:04:47 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:04:47] "POST /ask HTTP/1.1" 500 -
+2019-08-06 21:04:54 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:04:54] "POST /ask HTTP/1.1" 500 -
+2019-08-06 21:05:03 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:05:03] "GET / HTTP/1.1" 200 -
+2019-08-06 21:05:08 root INFO question_aiml: chao ban, answer_aiml: Xin chào bạn, chúc bạn một ngày vui vẻ.
+2019-08-06 21:05:08 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:05:08] "POST /ask HTTP/1.1" 200 -
+2019-08-06 21:05:10 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:05:10] "POST /ask HTTP/1.1" 500 -
+2019-08-06 21:05:12 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:05:12] "POST /ask HTTP/1.1" 500 -
+2019-08-06 21:05:16 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:05:16] "POST /ask HTTP/1.1" 500 -
+2019-08-06 21:05:20 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:05:20] "POST /ask HTTP/1.1" 500 -
+2019-08-06 21:05:26 root INFO question_aiml: mat cmnd thi phai lam lai the nao, answer_aiml: Đổi, cấp lại Chứng minh nhân dân
+1- Những trường hợp sau đây phải làm thủ tục đổi Chứng minh nhân dân :
+a) Chứng minh nhân dân hết thời hạn sử dụng;
+b) Chứng minh nhân dân hư hỏng không sử dụng được;
+c) Thay đổi họ, tên, chữ đệm, ngày, tháng, năm sinh;
+d) Thay đổi nơi đăng ký hộ khẩu thường trú ngoài phạm vi tỉnh, thành phố trực thuộc Trung ương;
+e) Thay đổi đặc điểm nhận dạng.
+2- Trường hợp bị mất Chứng minh nhân dân thì phải làm thủ tục cấp lại.
+2019-08-06 21:05:26 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:05:26] "POST /ask HTTP/1.1" 200 -
+2019-08-06 21:07:48 werkzeug INFO  * Detected change in '/home/tucng/Desktop/DoraNews/Rule_based_AIML/ChatBot_Demo/main.py', reloading
+2019-08-06 21:07:48 werkzeug INFO  * Restarting with stat
+2019-08-06 21:07:51 werkzeug WARNING  * Debugger is active!
+2019-08-06 21:07:51 werkzeug INFO  * Debugger PIN: 215-759-126
+2019-08-06 21:07:59 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:07:59] "GET / HTTP/1.1" 200 -
+2019-08-06 21:08:03 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:08:03] "POST /ask HTTP/1.1" 500 -
+2019-08-06 21:08:08 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:08:08] "POST /ask HTTP/1.1" 500 -
+2019-08-06 21:08:15 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:08:15] "POST /ask HTTP/1.1" 500 -
+2019-08-06 21:08:20 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:08:20] "POST /ask HTTP/1.1" 500 -
+2019-08-06 21:11:22 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-08-06 21:11:22 werkzeug INFO  * Restarting with stat
+2019-08-06 21:11:25 werkzeug WARNING  * Debugger is active!
+2019-08-06 21:11:25 werkzeug INFO  * Debugger PIN: 215-759-126
+2019-08-06 21:11:30 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:11:30] "GET / HTTP/1.1" 200 -
+2019-08-06 21:11:34 root INFO question_aiml: xin chao, answer_aiml: Xin chào bạn, chúc bạn một ngày vui vẻ.
+2019-08-06 21:11:34 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:11:34] "POST /ask HTTP/1.1" 200 -
+2019-08-06 21:11:38 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:11:38] "POST /ask HTTP/1.1" 500 -
+2019-08-06 21:12:03 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-08-06 21:12:03 werkzeug INFO  * Restarting with stat
+2019-08-06 21:12:07 werkzeug WARNING  * Debugger is active!
+2019-08-06 21:12:07 werkzeug INFO  * Debugger PIN: 215-759-126
+2019-08-06 21:12:10 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:12:10] "GET / HTTP/1.1" 200 -
+2019-08-06 21:12:14 root INFO question_aiml: xin chao, answer_aiml: Xin chào bạn, chúc bạn một ngày vui vẻ.
+2019-08-06 21:12:14 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:12:14] "POST /ask HTTP/1.1" 200 -
+2019-08-06 21:12:17 root INFO question_aiml: chao cau, answer_aiml: Xin chào người bạn của tôi.
+2019-08-06 21:12:17 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:12:17] "POST /ask HTTP/1.1" 200 -
+2019-08-06 21:12:21 root INFO question_aiml: xin chao cau, answer_aiml: Xin chào ! Rất vui khi được gặp ban !!
+2019-08-06 21:12:21 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:12:21] "POST /ask HTTP/1.1" 200 -
+2019-08-06 21:12:25 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:12:25] "POST /ask HTTP/1.1" 500 -
+2019-08-06 21:14:13 werkzeug INFO  * Detected change in '/home/tucng/Desktop/DoraNews/Rule_based_AIML/ChatBot_Demo/main.py', reloading
+2019-08-06 21:14:13 werkzeug INFO  * Restarting with stat
+2019-08-06 21:14:16 werkzeug WARNING  * Debugger is active!
+2019-08-06 21:14:16 werkzeug INFO  * Debugger PIN: 215-759-126
+2019-08-06 21:14:22 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-08-06 21:14:22 werkzeug INFO  * Restarting with stat
+2019-08-06 21:14:24 werkzeug WARNING  * Debugger is active!
+2019-08-06 21:14:24 werkzeug INFO  * Debugger PIN: 215-759-126
+2019-08-06 21:14:27 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:14:27] "GET / HTTP/1.1" 200 -
+2019-08-06 21:14:33 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:14:33] "POST /ask HTTP/1.1" 500 -
+2019-08-06 21:15:21 werkzeug INFO  * Detected change in '/home/tucng/Desktop/DoraNews/Rule_based_AIML/ChatBot_Demo/bot_brain.py', reloading
+2019-08-06 21:15:21 werkzeug INFO  * Restarting with stat
+2019-08-06 21:15:28 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-08-06 21:15:28 werkzeug INFO  * Restarting with stat
+2019-08-06 21:15:30 werkzeug WARNING  * Debugger is active!
+2019-08-06 21:15:30 werkzeug INFO  * Debugger PIN: 215-759-126
+2019-08-06 21:15:30 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:15:30] "GET / HTTP/1.1" 200 -
+2019-08-06 21:15:35 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:15:35] "POST /ask HTTP/1.1" 500 -
+2019-08-06 21:16:30 werkzeug INFO  * Detected change in '/home/tucng/Desktop/DoraNews/Rule_based_AIML/ChatBot_Demo/bot_brain.py', reloading
+2019-08-06 21:16:30 werkzeug INFO  * Restarting with stat
+2019-08-06 21:16:33 werkzeug WARNING  * Debugger is active!
+2019-08-06 21:16:33 werkzeug INFO  * Debugger PIN: 215-759-126
+2019-08-06 21:17:27 werkzeug INFO  * Detected change in '/home/tucng/Desktop/DoraNews/Rule_based_AIML/ChatBot_Demo/main.py', reloading
+2019-08-06 21:17:27 werkzeug INFO  * Restarting with stat
+2019-08-06 21:17:29 werkzeug WARNING  * Debugger is active!
+2019-08-06 21:17:29 werkzeug INFO  * Debugger PIN: 215-759-126
+2019-08-06 21:31:27 werkzeug INFO  * Detected change in '/home/tucng/Desktop/DoraNews/Rule_based_AIML/ChatBot_Demo/main.py', reloading
+2019-08-06 21:31:27 werkzeug INFO  * Restarting with stat
+2019-08-06 21:31:30 werkzeug WARNING  * Debugger is active!
+2019-08-06 21:31:30 werkzeug INFO  * Debugger PIN: 215-759-126
+2019-08-06 21:32:55 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-08-06 21:32:55 werkzeug INFO  * Restarting with stat
+2019-08-06 21:32:57 werkzeug WARNING  * Debugger is active!
+2019-08-06 21:32:57 werkzeug INFO  * Debugger PIN: 215-759-126
+2019-08-06 21:33:23 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:33:23] "GET / HTTP/1.1" 200 -
+2019-08-06 21:33:26 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:33:26] "GET / HTTP/1.1" 200 -
+2019-08-06 21:33:32 root INFO question_sys2tuongdong: xin chaof, answer_sys2tuongdong: Câu hỏi của bạn đã được chuyển đến cho tư vấn viên hỗ trợ.
+2019-08-06 21:33:32 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:33:32] "POST /ask HTTP/1.1" 200 -
+2019-08-06 21:33:35 root INFO question_sys2tuongdong: chaof, answer_sys2tuongdong: Câu hỏi của bạn đã được chuyển đến cho tư vấn viên hỗ trợ.
+2019-08-06 21:33:35 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:33:35] "POST /ask HTTP/1.1" 200 -
+2019-08-06 21:33:40 root INFO question_aiml: chao ban, answer_aiml: Xin chào ! Rất vui khi được gặp ban !!
+2019-08-06 21:33:40 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:33:40] "POST /ask HTTP/1.1" 200 -
+2019-08-06 21:33:44 root INFO question_sys2tuongdong: chao, answer_sys2tuongdong: Câu hỏi của bạn đã được chuyển đến cho tư vấn viên hỗ trợ.
+2019-08-06 21:33:44 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:33:44] "POST /ask HTTP/1.1" 200 -
+2019-08-06 21:33:51 root INFO question_aiml: toi bi mat cmnd, answer_aiml: Bạn thực hiện thủ tục xin cấp lại CMND tại cơ quan công an cấp huyện nơi đăng ký hộ khẩu thường trú.
+ 
+Căn cứ Điều 6 Nghị định 05/1999/NĐ-CP; mục 2 Nghị định 170/2007/NĐ-CP thì bạn cần nộp:
+ 
+- Đơn trình bày nêu rõ lý do xin cấp lại chứng minh nhân dân và đơn này phải có xác nhận của công an phường, xã, thị trấn nơi thường trú.
+ 
+Sau đó:
+ 
+- Bạn xuất trình hộ khẩu thường trú;
+ 
+- Chụp ảnh;
+ 
+- In vân tay hai ngón trỏ;
+ 
+- Khai tờ khai xin cấp Chứng minh nhân dân;
+ 
+- Nộp lệ phí.
+2019-08-06 21:33:51 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:33:51] "POST /ask HTTP/1.1" 200 -
+2019-08-06 21:33:54 root INFO question_sys2tuongdong: hello, answer_sys2tuongdong: Xin chào, tôi có thể giúp gì được cho bạn ?
+2019-08-06 21:33:54 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:33:54] "POST /ask HTTP/1.1" 200 -
