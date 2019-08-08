@@ -2,12 +2,12 @@
 __author__ = 'nobita'
 
 import config
-import bot_brain
+import bot_brain_intent
 from flask import Flask, request
 import HTMLParser
 
 
-bot = bot_brain.brain_bot()
+bot = bot_brain_intent.brain_bot()
 bot.run()
 
 app = Flask(__name__, static_url_path='',

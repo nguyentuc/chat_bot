@@ -125,3 +125,39 @@ Sau đó:
 2019-08-08 11:20:17 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:20:17] "GET /custom/custom.css HTTP/1.1" 304 -
 2019-08-08 11:20:19 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:20:19] "GET /favicon.ico HTTP/1.1" 404 -
 2019-08-08 11:20:25 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:20:25] "POST /get_answer HTTP/1.1" 200 -
+2019-08-08 11:27:28 werkzeug INFO  * Running on http://0.0.0.0:8756/ (Press CTRL+C to quit)
+2019-08-08 11:27:44 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:27:44] "POST /get_answer HTTP/1.1" 200 -
+2019-08-08 11:29:41 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-08-08 11:29:41 werkzeug INFO  * Restarting with stat
+2019-08-08 11:29:49 werkzeug WARNING  * Debugger is active!
+2019-08-08 11:29:52 werkzeug INFO  * Debugger PIN: 215-759-126
+2019-08-08 11:32:18 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:32:18] "GET / HTTP/1.1" 200 -
+2019-08-08 11:32:19 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:32:19] "GET /favicon.ico HTTP/1.1" 404 -
+2019-08-08 11:32:25 root INFO question_sys2tuongdong: may ten gi, answer_sys2tuongdong: Câu hỏi của bạn đã được chuyển đến cho tư vấn viên hỗ trợ.
+2019-08-08 11:32:25 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:32:25] "POST /ask HTTP/1.1" 200 -
+2019-08-08 11:32:29 root INFO question_sys2tuongdong: may ten gi, answer_sys2tuongdong: Câu hỏi của bạn đã được chuyển đến cho tư vấn viên hỗ trợ.
+2019-08-08 11:32:29 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:32:29] "POST /ask HTTP/1.1" 200 -
+2019-08-08 11:34:24 werkzeug INFO  * Detected change in '/home/tucng/Desktop/DoraNews/Rule_based_AIML/ChatBot_Demo/main.py', reloading
+2019-08-08 11:34:24 werkzeug INFO  * Restarting with stat
+2019-08-08 11:34:30 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-08-08 11:34:30 werkzeug INFO  * Restarting with stat
+2019-08-08 11:34:34 werkzeug WARNING  * Debugger is active!
+2019-08-08 11:34:34 werkzeug INFO  * Debugger PIN: 215-759-126
+2019-08-08 11:34:38 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:34:38] "GET / HTTP/1.1" 200 -
+2019-08-08 11:34:46 root INFO question_sys2tuongdong: may ten gi, answer_sys2tuongdong: Câu hỏi của bạn đã được chuyển đến cho tư vấn viên hỗ trợ.
+2019-08-08 11:34:46 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:34:46] "POST /ask HTTP/1.1" 200 -
+2019-08-08 11:37:46 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-08-08 11:37:46 werkzeug INFO  * Restarting with stat
+2019-08-08 11:37:48 werkzeug WARNING  * Debugger is active!
+2019-08-08 11:37:48 werkzeug INFO  * Debugger PIN: 215-759-126
+2019-08-08 11:38:05 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:38:05] "GET / HTTP/1.1" 200 -
+2019-08-08 11:38:16 root INFO question_sys2tuongdong: may ten gi, answer_sys2tuongdong: Câu hỏi của bạn đã được chuyển đến cho tư vấn viên hỗ trợ.
+2019-08-08 11:38:16 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:38:16] "POST /ask HTTP/1.1" 200 -
+2019-08-08 11:40:37 werkzeug INFO  * Detected change in '/home/tucng/Desktop/DoraNews/Rule_based_AIML/ChatBot_Demo/main.py', reloading
+2019-08-08 11:40:37 werkzeug INFO  * Restarting with stat
+2019-08-08 11:40:44 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2019-08-08 11:40:44 werkzeug INFO  * Restarting with stat
+2019-08-08 11:40:47 werkzeug WARNING  * Debugger is active!
+2019-08-08 11:40:47 werkzeug INFO  * Debugger PIN: 215-759-126
+2019-08-08 11:40:53 root INFO question_sys2tuongdong: may ten gi, answer_sys2tuongdong: Tôi là Lily, trợ lý ảo của hệ thống hỗ trợ người dân trực tuyến.
+2019-08-08 11:40:53 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:40:53] "POST /ask HTTP/1.1" 200 -

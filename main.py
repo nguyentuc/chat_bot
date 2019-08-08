@@ -4,12 +4,12 @@ import os
 from unidecode import unidecode
 import aiml
 import json
-import bot_brain
+import bot_brain_intent
 from logger import logger
 
 app = Flask(__name__)
 
-bot = bot_brain.brain_bot()
+bot = bot_brain_intent.brain_bot()
 bot.run()
 
 
@@ -62,12 +62,12 @@ def ask():
                                 'answer': answer,
                                 'link': link,
                                 'flag': 1})
-            elif bot.thinking(unicode(string_input, "utf-8")):
+            elif bot.thinking(unicode(message, "utf-8")):
                 logger.info(
                     'question_sys2tuongdong: %s, answer_sys2tuongdong: %s' % (
-                        string_input, bot.thinking(unicode(string_input, "utf-8"))))
+                        string_input, bot.thinking(unicode(message, "utf-8"))))
                 return jsonify({'status': 'OK',
-                                'answer': bot.thinking(unicode(string_input, "utf-8")),
+                                'answer': bot.thinking(unicode(message, "utf-8")),
                                 'flag': 2})
             else:
                 return jsonify({'status': 'OK',
