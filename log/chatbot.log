@@ -120,3 +120,8 @@ Sau đó:
 2019-08-06 21:33:51 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:33:51] "POST /ask HTTP/1.1" 200 -
 2019-08-06 21:33:54 root INFO question_sys2tuongdong: hello, answer_sys2tuongdong: Xin chào, tôi có thể giúp gì được cho bạn ?
 2019-08-06 21:33:54 werkzeug INFO 127.0.0.1 - - [06/Aug/2019 21:33:54] "POST /ask HTTP/1.1" 200 -
+2019-08-08 11:19:10 werkzeug INFO  * Running on http://0.0.0.0:8756/ (Press CTRL+C to quit)
+2019-08-08 11:20:17 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:20:17] "GET / HTTP/1.1" 304 -
+2019-08-08 11:20:17 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:20:17] "GET /custom/custom.css HTTP/1.1" 304 -
+2019-08-08 11:20:19 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:20:19] "GET /favicon.ico HTTP/1.1" 404 -
+2019-08-08 11:20:25 werkzeug INFO 127.0.0.1 - - [08/Aug/2019 11:20:25] "POST /get_answer HTTP/1.1" 200 -
